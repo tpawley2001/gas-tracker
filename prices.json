@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-03 17:29:22 PDT",
-  "timestamp": 1780532962,
+  "updated": "2026-06-04 06:00:41 PDT",
+  "timestamp": 1780578041,
   "stations": [
     {
       "id": "98956",
@@ -24,7 +24,7 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 5.29
+      "price": 5.19
     },
     {
       "id": "145365",
@@ -32,6 +32,14 @@
       "address": "1703 E Francis Ave",
       "lat": 47.71525,
       "lng": -117.38436,
+      "price": 5.19
+    },
+    {
+      "id": "69122",
+      "name": "NomNom",
+      "address": "4615 N Division St",
+      "lat": 47.700363587774,
+      "lng": -117.411559224129,
       "price": 5.19
     },
     {
@@ -155,14 +163,6 @@
       "price": 5.39
     },
     {
-      "id": "66244",
-      "name": "Exxon",
-      "address": "520 S Pines Rd",
-      "lat": 47.651783705725,
-      "lng": -117.240251898766,
-      "price": 5.29
-    },
-    {
       "id": "66252",
       "name": "Exxon",
       "address": "13823 E Broadway Ave",
@@ -235,14 +235,6 @@
       "price": 5.29
     },
     {
-      "id": "63229",
-      "name": "76",
-      "address": "21804 E Mission Ave",
-      "lat": 47.674133,
-      "lng": -117.11172,
-      "price": 5.49
-    },
-    {
       "id": "106607",
       "name": "Cenex",
       "address": "22304 E Appleway Ave",
@@ -264,7 +256,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 5.29
+      "price": 5.27
     },
     {
       "id": "73457",
@@ -307,6 +299,14 @@
       "price": 5.17
     },
     {
+      "id": "66251",
+      "name": "76",
+      "address": "1007 N Sullivan Rd",
+      "lat": 47.666438,
+      "lng": -117.197024,
+      "price": 5.29
+    },
+    {
       "id": "108791",
       "name": "Nom No",
       "address": "15504 E 4th Ave",
@@ -336,7 +336,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.41
+      "price": 4.4
     },
     {
       "id": "210449",
