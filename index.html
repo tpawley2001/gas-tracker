@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0f0f1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>⛽ Gas Tracker — Spokane → Stateline</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛽</text></svg>">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; }
+#map { height: 100vh; width: 100%; }
+.sidebar {
+  position: absolute; top: 20px; right: 20px; z-index: 1000;
+  width: 380px; max-height: calc(100vh - 40px); overflow-y: auto;
+  background: rgba(15,15,26,0.92); backdrop-filter: blur(12px);
+  border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);
+  padding: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+@media (max-width: 700px) {
+  .sidebar { width: calc(100vw - 20px); right: 10px; top: 10px; max-height: calc(100vh - 20px); font-size: 13px; padding: 14px; }
+}
+.sidebar h1 { font-size: 22px; margin-bottom: 4px; color: #fff; }
+.sidebar .subtitle { font-size: 13px; color: #888; margin-bottom: 14px; }
+.controls { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; align-items: center; }
+.controls label { font-size: 11px; color: #aaa; display: flex; align-items: center; gap: 3px; }
+.controls input {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px; padding: 8px 10px; color: #fff; font-size: 14px; width: 70px;
+}
+.controls input:focus { outline: none; border-color: #4a9eff; }
+.controls button {
+  background: #4a9eff; border: none; border-radius: 8px; padding: 8px 14px;
+  color: #fff; font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.2s;
+}
+.controls button:hover { background: #3a8eef; }
+.controls button:disabled { opacity: 0.5; cursor: not-allowed; }
+.station-list { display: flex; flex-direction: column; gap: 6px; }
+.station-item {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px; padding: 10px; cursor: pointer; transition: all 0.2s;
+}
+.station-item:hover { background: rgba(74,158,255,0.08); border-color: rgba(74,158,255,0.2); }
+.station-item .name { font-weight: 600; color: #fff; font-size: 13px; }
+.station-item .brand { font-size: 11px; color: #666; }
+.station-item .details { display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px; flex-wrap: wrap; }
+.station-item .price { color: #4ade80; font-weight: bold; font-size: 15px; cursor: pointer; }
+.station-item .price:hover { text-decoration: underline; color: #6ef0a0; }
+.station-item .no-price { color: #666; font-size: 12px; cursor: pointer; }
+.station-item .cost { color: #fbbf24; font-size: 12px; }
+.station-item .dist { color: #888; }
+.station-item .savings-badge { font-size: 11px; color: #4ade80; margin-top: 2px; }
+.station-item .premium-badge { font-size: 11px; color: #f59e0b; margin-top: 2px; }
+.stats-bar {
+  display: flex; gap: 10px; font-size: 11px; color: #888;
+  padding: 6px 0; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap;
+}
+.stats-bar span strong { color: #fff; }
+.leaflet-popup-content-wrapper { background: rgba(15,15,26,0.95); color: #e0e0e0; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; }
+.leaflet-popup-tip { background: rgba(15,15,26,0.95); }
+.loading { text-align: center; color: #666; font-size: 13px; padding: 20px 0; }
+.spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #333; border-top-color: #4a9eff; border-radius: 50%; animation: spin 0.8s linear infinite; margin-right: 8px; vertical-align: middle; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.error { color: #ff5a5a; font-size: 13px; padding: 10px 0; }
+.small-btn { font-size: 11px !important; padding: 4px 8px !important; background: #334155 !important; }
+.small-btn:hover { background: #475569 !important; }
+.edit-note { font-size: 10px; color: #555; margin-bottom: 6px; text-align: center; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="sidebar">
+  <h1>⛽ Gas Tracker</h1>
+  <div class="subtitle">Spokane, WA → Stateline, ID</div>
+  <div class="controls">
+    <label>MPG <input type="number" id="mpgInput" value="22" step="0.1" min="1" style="width:55px"></label>
+    <label>Tank <input type="number" id="tankInput" value="17" step="0.5" min="1" style="width:60px"></label>
+    <button onclick="refreshData()">🔄</button>
+    <button class="small-btn" onclick="fetchLivePrices()">📡 Live</button>
+  </div>
+  <div class="edit-note">Tap a price to edit it</div>
+  <div class="stats-bar">
+    <span>Stations: <strong id="stationCount">0</strong></span>
+    <span>Cheapest: <strong id="cheapestPrice">--</strong></span>
+    <span>Best savings: <strong id="bestSavings">--</strong></span>
+  </div>
+  <div id="stationList" class="station-list">
+    <div class="loading"><span class="spinner"></span>Loading stations...</div>
+  </div>
+  <div id="errorDisplay" class="error" style="display:none"></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+// ═══ STATIONS ═══════════════════════════════════════════════════
+const STATIONS = [
+  // Spokane (north side)
+  {n:"Fred Meyer Northtown",a:"920 E Montgomery Ave, Spokane, WA",lat:47.6950,lng:-117.3970,b:"Fred Meyer"},
+  {n:"Safeway Maple",a:"1010 W Francis Ave, Spokane, WA",lat:47.7080,lng:-117.4280,b:"Safeway"},
+  {n:"Safeway Mission",a:"2925 E Mission Ave, Spokane, WA",lat:47.6610,lng:-117.3680,b:"Safeway"},
+  {n:"Costco Spokane",a:"4601 E Ohio St, Spokane, WA",lat:47.6620,lng:-117.3840,b:"Costco"},
+  {n:"Fred Meyer Sprague",a:"1025 E Sprague Ave, Spokane, WA",lat:47.6530,lng:-117.3960,b:"Fred Meyer"},
+  {n:"Arco 7th",a:"1025 W 7th Ave, Spokane, WA",lat:47.6440,lng:-117.4210,b:"Arco"},
+  {n:"Chevron Division",a:"4101 N Division St, Spokane, WA",lat:47.7020,lng:-117.4100,b:"Chevron"},
+  {n:"Shell Browne",a:"210 W Browne St, Spokane, WA",lat:47.6700,lng:-117.4130,b:"Shell"},
+  {n:"Maverik Francis",a:"1019 E Francis Ave, Spokane, WA",lat:47.7155,lng:-117.3947,b:"Maverik"},
+  {n:"Exxon Francis",a:"924 E Francis Ave, Spokane, WA",lat:47.7149,lng:-117.3959,b:"Exxon"},
+  // Spokane Valley
+  {n:"Costco Valley",a:"13501 E Indiana Ave, Spokane Valley, WA",lat:47.6715,lng:-117.2450,b:"Costco"},
+  {n:"Fred Meyer Valley",a:"16120 E Sprague Ave, Spokane Valley, WA",lat:47.6705,lng:-117.1950,b:"Fred Meyer"},
+  {n:"Chevron Sullivan",a:"12201 E Sprague Ave, Spokane Valley, WA",lat:47.6700,lng:-117.2350,b:"Chevron"},
+  {n:"Shell Sprague",a:"11508 E Sprague Ave, Spokane Valley, WA",lat:47.6702,lng:-117.2490,b:"Shell"},
+  {n:"Arco Valley",a:"13021 E Sprague Ave, Spokane Valley, WA",lat:47.6708,lng:-117.2330,b:"Arco"},
+  {n:"76 Valley",a:"14010 E Sprague Ave, Spokane Valley, WA",lat:47.6703,lng:-117.2150,b:"76"},
+  // Liberty Lake
+  {n:"Chevron Liberty Lk",a:"2300 N Molter Rd, Liberty Lake, WA",lat:47.6745,lng:-117.1100,b:"Chevron"},
+  {n:"Shell Liberty Lk",a:"2325 N Pepper Ln, Liberty Lake, WA",lat:47.6740,lng:-117.1050,b:"Shell"},
+  {n:"Fred Meyer Liberty Lk",a:"2410 N Liberty Lake Rd, Liberty Lake, WA",lat:47.6750,lng:-117.1030,b:"Fred Meyer"},
+  // Stateline / Post Falls
+  {n:"Chevron Stateline",a:"2730 N Pleasant View Rd, Post Falls, ID",lat:47.6850,lng:-117.0200,b:"Chevron"},
+  {n:"Circle K Stateline",a:"70 N Beck Rd, Stateline, ID",lat:47.7032,lng:-117.0223,b:"Circle K"},
+  {n:"Maverik W Point",a:"5992 W Point Pkwy, Post Falls, ID",lat:47.7024,lng:-117.0287,b:"Maverik"},
+  {n:"A-1 Smoke Shop",a:"7200 W Seltice Way, Post Falls, ID",lat:47.7019,lng:-117.0402,b:"Chevron"},
+  {n:"Amerimart",a:"7035 W Seltice Way, Post Falls, ID",lat:47.7036,lng:-117.0402,b:"Amerimart"},
+  {n:"Exxon Riverbend",a:"4000 W Riverbend Ave, Post Falls, ID",lat:47.7077,lng:-117.0024,b:"Exxon"},
+  {n:"Love's Travel Stop",a:"4208 W Expo Pkwy, Post Falls, ID",lat:47.7108,lng:-117.0043,b:"Love's"},
+  {n:"Exxon Expo Pkwy",a:"4100 W Expo Pkwy, Post Falls, ID",lat:47.7124,lng:-117.0024,b:"Exxon"},
+  {n:"Flying J",a:"3636 W 5th Ave, Post Falls, ID",lat:47.7114,lng:-116.9970,b:"Flying J"},
+  {n:"7-Eleven",a:"768 N Pleasant View Rd, Post Falls, ID",lat:47.7160,lng:-117.0009,b:"7-Eleven"},
+  {n:"Maverik Spokane St",a:"1000 N Spokane St, Post Falls, ID",lat:47.7070,lng:-116.9880,b:"Maverik"},
+  {n:"Pilot",a:"590 N Highway 41, Post Falls, ID",lat:47.7200,lng:-116.9970,b:"Pilot"},
+  {n:"Cenex Mullan",a:"606 W Mullan Ave, Post Falls, ID",lat:47.7161,lng:-116.9562,b:"Cenex"},
+  {n:"Handy Mart",a:"312 N Spokane St, Post Falls, ID",lat:47.7104,lng:-116.9478,b:"Exxon"},
+  {n:"Exxon Spokane St",a:"701 N Spokane St, Post Falls, ID",lat:47.7142,lng:-116.9482,b:"Exxon"},
+  {n:"Conoco Hwy 53",a:"26913 W ID-53, Post Falls, ID",lat:47.7457,lng:-117.0198,b:"Conoco"},
+];
+
+// ═══ MAP ════════════════════════════════════════════════════════
+const map = L.map('map',{center:[47.665,-117.25],zoom:11,zoomControl:true});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(map);
+const homeIcon=L.divIcon({html:'<div style="background:#4a9eff;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 8px rgba(74,158,255,0.5);border:2px solid #fff;">🏠</div>',className:'',iconSize:[24,24],iconAnchor:[12,12]});
+const destIcon=L.divIcon({html:'<div style="background:#f59e0b;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 8px rgba(245,158,11,0.5);border:2px solid #fff;">📍</div>',className:'',iconSize:[24,24],iconAnchor:[12,12]});
+const mkIcon=p=>L.divIcon({html:`<div style="background:rgba(74,222,128,0.9);width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:bold;color:#000;box-shadow:0 2px 8px rgba(0,0,0,0.3);border:2px solid #fff;flex-direction:column;line-height:1;">⛽${p?`<span style="font-size:8px;margin-top:-2px">$${p.toFixed(2)}</span>`:''}</div>`,className:'',iconSize:[32,40],iconAnchor:[16,36]});
+
+let homePos=[47.7089,-117.3950],stations=[],markers=[],cluster,hm,dm,mr;
+function wrk(s){return s.a||s.address||''}
+function wN(s){return s.n||s.name||''}
+function wB(s){return s.b||s.brand||''}
+function wP(s){return s.p||s.price||null}
+
+// ═══ GEOCODE ════════════════════════════════════════════════════
+async function gG(q){try{const r=await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1`,{headers:{'User-Agent':'GasTracker/1.0'}});const d=await r.json();if(d.length)return[parseFloat(d[0].lat),parseFloat(d[0].lon)]}catch{}return null}
+
+// ═══ ROUTE ══════════════════════════════════════════════════════
+async function oR(a,b,c,d){try{const r=await fetch(`https://router.project-osrm.org/route/v1/driving/${b},${a};${d},${c}?overview=full&geometries=geojson`,{signal:AbortSignal.timeout(8000)});const j=await r.json();if(j.routes?.length){const rt=j.routes[0];return{d:rt.distance*0.000621371,g:rt.geometry}}}catch{}return null}
+
+// ═══ RENDER ═════════════════════════════════════════════════════
+function render(){
+  const m=parseFloat(document.getElementById('mpgInput').value)||22,t=parseFloat(document.getElementById('tankInput').value)||17;
+  const el=document.getElementById('stationList');
+  el.innerHTML='<div class="loading"><span class="spinner"></span>Loading...</div>';
+
+  // Reset markers
+  if(cluster)map.removeLayer(cluster);
+  markers.forEach(m=>map.removeLayer(m));
+  if(hm)map.removeLayer(hm);if(dm)map.removeLayer(dm);if(mr)map.removeLayer(mr);
+  markers=[];
+
+  cluster=L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:40,disableClusteringAtZoom:16});
+  map.addLayer(cluster);
+
+  hm=L.marker(homePos,{icon:homeIcon}).addTo(map).bindPopup('<b>🏠 Home</b><br>1009 E Nebraska Ave');
+  dm=L.marker([47.686,-117.020],{icon:destIcon}).addTo(map).bindPopup('<b>📍 Stateline, ID</b>');
+
+  // Route home→Stateline
+  oR(homePos[0],homePos[1],47.686,-117.020).then(r=>{if(r?.g){mr=L.geoJSON(r.g,{style:{color:'#4a9eff',weight:3,opacity:.6}}).addTo(map)}});
+
+  // Process each station
+  const results=[];
+  const homePrice=Math.min(...STATIONS.filter(s=>{const d=Math.hypot(s.lat-homePos[0],s.lng-homePos[1]);return d<.02&&wP(s)}).map(wP))||5.19;
+
+  STATIONS.forEach(s=>{
+    const price=wP(s);
+    const dist=Math.hypot(s.lat-homePos[0],s.lng-homePos[1])*69; // ~1deg=69mi approximation
+    const driveG=dist*2/m;
+    const fill=price?t*price:null;
+    const sv=price?(homePrice-price)*t:0;
+    results.push({n:wN(s),a:wrk(s),lat:s.lat,lng:s.lng,b:wB(s),d:dist,rt:dist*2,dg:driveG,fc:fill,p:price,ts:t,sv});
+  });
+  results.sort((a,b)=>b.sv-a.sv);
+  stations=results;
+
+  const prices=results.filter(r=>r.p).map(r=>r.p);
+  const bestSave=results.reduce((b,r)=>Math.max(b,r.sv||0),0);
+  document.getElementById('stationCount').textContent=results.length;
+  document.getElementById('cheapestPrice').textContent=prices.length?'$'+Math.min(...prices).toFixed(2):'--';
+  document.getElementById('bestSavings').textContent=bestSave>0?'Save $'+bestSave.toFixed(2):'--';
+
+  let html='';
+  results.forEach((r,i)=>{
+    const pd=r.p&&homePrice?r.p-homePrice:0;
+    html+=`<div class="station-item" onclick="focusStation(${i})">
+      <div class="name">⛽ ${r.n}</div>
+      <div class="brand">${r.b} · ${r.a}</div>
+      <div class="details">
+        <div>${r.p?'<span class="price" onclick="event.stopPropagation();editPrice('+i+')">$'+r.p.toFixed(2)+'/gal</span>':'<span class="no-price" onclick="event.stopPropagation();editPrice('+i+')">Set price</span>'} · <span class="dist">${r.d.toFixed(1)} mi</span> · <span class="dist">${r.dg.toFixed(1)} gal</span></div>
+        <div>${r.fc?'<span class="cost">⛽ Fill $'+r.fc.toFixed(2)+'</span>':''}</div>
+      </div>
+      ${r.sv>0?'<div class="savings-badge">💰 Save $'+r.sv.toFixed(2)+(pd?' ('+(pd>0?'+':'')+pd.toFixed(2)+'/gal)':'')+'</div>':''}
+      ${r.sv<=0&&r.p?'<div class="premium-badge">'+(pd>0?'+':'')+pd.toFixed(2)+'/gal</div>':''}
+    </div>`;
+
+    const popup=`<div style="min-width:180px"><b>${r.n}</b> · ${r.b}<br><small>${r.a}</small><hr style="border-color:#333;margin:6px 0">
+      ${r.p?'<span style="font-size:18px;font-weight:bold;color:#4ade80">$'+r.p.toFixed(2)+'</span>/gal':'<span style="color:#888">No price</span>'}<br>
+      <b>${r.d.toFixed(1)} mi</b> one-way · ${r.rt.toFixed(1)} mi round trip<br>
+      <b>${r.dg.toFixed(1)} gal</b> to drive<br>
+      ${r.fc?'<b>Fill '+r.ts+' gal tank:</b> $'+r.fc.toFixed(2):''}<br>
+      ${r.sv>0?'<span style="font-size:14px;color:#4ade80;font-weight:bold">💰 Save $'+r.sv.toFixed(2)+' vs home!</span>':''}</div>`;
+    const mkr=L.marker([r.lat,r.lng],{icon:mkIcon(r.p)}).bindPopup(popup);
+    cluster.addLayer(mkr);
+    markers.push(mkr);
+  });
+  el.innerHTML=html;
+}
+
+function focusStation(i){
+  const s=stations[i];if(!s)return;
+  map.setView([s.lat,s.lng],14);
+  document.querySelectorAll('.station-item').forEach(e=>e.classList.remove('highlight'));
+  const items=document.querySelectorAll('.station-item');
+  if(items[i])items[i].classList.add('highlight');
+  if(markers[i])markers[i].openPopup();
+}
+
+function editPrice(i){
+  const s=STATIONS[i];if(!s){showError('Station not found');return}
+  const cur=s.p||'';
+  const v=prompt('Enter price ($/gal) for '+wN(s)+':',cur);
+  if(v!==null&&!isNaN(parseFloat(v))&&parseFloat(v)>0){
+    s.p=parseFloat(v);
+    render();
+  }
+}
+
+function showError(m){const e=document.getElementById('errorDisplay');e.textContent=m;e.style.display='block'}
+function clearError(){document.getElementById('errorDisplay').style.display='none'}
+
+// ═══ LIVE PRICES ════════════════════════════════════════════════
+async function fetchLivePrices(){
+  const btn=document.querySelector('.small-btn');
+  btn.disabled=true;btn.textContent='⏳';
+  showError('Contacting GasBuddy...');
+
+  const proxies=['https://api.allorigins.win/raw?url='];
+  for(const pb of proxies){
+    try{
+      const gh=await fetch(pb+encodeURIComponent('https://www.gasbuddy.com/home'),{signal:AbortSignal.timeout(8000)});
+      const hh=await gh.text();
+      const cm=hh.match(/window\.gbcsrf\s*=\s*"([^"]+)"/);
+      if(!cm)continue;
+      const body=JSON.stringify({operationName:'LocationBySearchTerm',query:'query LocationBySearchTerm($lat:Float,$lng:Float,$maxAge:Int,$fuel:Int,$search:String){locationBySearchTerm(lat:$lat,lng:$lng,search:$search){stations(fuel:$fuel lat:$lat lng:$lng maxAge:$maxAge){results{address{line1}name prices{credit{price}fuelProduct}id latitude longitude}}}}}',variables:{maxAge:0,lat:47.7088,lng:-117.3950,fuel:1,search:''}});
+      const gr=await fetch(pb+encodeURIComponent('https://www.gasbuddy.com/graphql'),{method:'POST',headers:{'Content-Type':'application/json','gbcsrf':cm[1]},body,signal:AbortSignal.timeout(8000)});
+      const gd=await gr.json();
+      const ss=gd?.data?.locationBySearchTerm?.stations?.results||[];
+      if(!ss.length)continue;
+      let m=0;
+      ss.forEach(s=>{
+        const p=s.prices?.find(x=>x.fuelProduct==='regular_gas')?.credit?.price;
+        if(!p)return;
+        STATIONS.forEach(st=>{if(Math.hypot(st.lat-s.latitude,st.lng-s.longitude)<.02){st.p=p;m++}});
+      });
+      clearError();btn.textContent='✅ '+m+' prices';
+      setTimeout(()=>{btn.textContent='📡 Live';btn.disabled=false},2000);
+      render();return;
+    }catch(e){console.log('proxy:',e.message)}
+  }
+  showError('Live fetch unavailable — tap a price to edit manually');
+  btn.textContent='📡 Live';btn.disabled=false;
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  gG('1009 E Nebraska Ave, Spokane, WA 99207').then(p=>{if(p)homePos=p;render()}).catch(()=>render());
+  document.getElementById('mpgInput').addEventListener('change',render);
+  document.getElementById('tankInput').addEventListener('change',render);
+});
+</script>
+</body>
+</html>
