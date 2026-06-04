@@ -84,7 +84,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     <button onclick="refreshData()">🔄</button>
     <button class="small-btn" onclick="fetchLivePrices()">📡 Live</button>
   </div>
-  <div class="edit-note">Tap a price to edit it</div>
+  <div class="edit-note">Tap a price to edit it · <span id="priceUpdated">loading...</span></div>
   <div class="stats-bar">
     <span>Stations: <strong id="stationCount">0</strong></span>
     <span>Cheapest: <strong id="cheapestPrice">--</strong></span>
@@ -251,7 +251,29 @@ function editPrice(i){
 function showError(m){const e=document.getElementById('errorDisplay');e.textContent=m;e.style.display='block'}
 function clearError(){document.getElementById('errorDisplay').style.display='none'}
 
-// ═══ LIVE PRICES ════════════════════════════════════════════════
+// ═══ LOAD STATIC PRICE FILE (prices.json from GitHub) ═══════════
+async function loadStaticPrices(){
+  try {
+    const r = await fetch('prices.json?' + Date.now(), { signal: AbortSignal.timeout(5000) });
+    const data = await r.json();
+    if(!data.stations || !data.stations.length) return false;
+    let matched = 0;
+    data.stations.forEach(s => {
+      if(!s.price) return;
+      STATIONS.forEach(st => {
+        if(Math.hypot(st.lat - s.lat, st.lng - s.lng) < 0.02){ st.p = s.price; matched++; }
+      });
+    });
+    console.log(`Loaded ${matched} prices from prices.json (${data.updated})`);
+    document.getElementById('priceUpdated').textContent = data.updated || 'unknown date';
+    return matched > 0;
+  } catch(e) {
+    console.log('Static prices not available:', e.message);
+    return false;
+  }
+}
+
+// ═══ LIVE PRICES (browser CORS proxy — fallback) ════════════════
 async function fetchLivePrices(){
   const btn=document.querySelector('.small-btn');
   btn.disabled=true;btn.textContent='⏳';
@@ -284,7 +306,8 @@ async function fetchLivePrices(){
   btn.textContent='📡 Live';btn.disabled=false;
 }
 
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded',async()=>{
+  await loadStaticPrices();
   gG('1009 E Nebraska Ave, Spokane, WA 99207').then(p=>{if(p)homePos=p;render()}).catch(()=>render());
   document.getElementById('mpgInput').addEventListener('change',render);
   document.getElementById('tankInput').addEventListener('change',render);
