@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07 06:00:23 PDT",
-  "timestamp": 1780837223,
+  "updated": "2026-06-08 06:00:52 PDT",
+  "timestamp": 1780923652,
   "stations": [
     {
       "id": "98956",
@@ -24,7 +24,15 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 5.29
+      "price": 5.19
+    },
+    {
+      "id": "19227",
+      "name": "Conoco",
+      "address": "925 E Wellesley Ave",
+      "lat": 47.70076553247,
+      "lng": -117.39565372467,
+      "price": 5.09
     },
     {
       "id": "69111",
@@ -83,20 +91,12 @@
       "price": 5.19
     },
     {
-      "id": "195913",
-      "name": "Quick Stop",
-      "address": " 3021 E Wellesley Ave",
-      "lat": 47.70087925577,
-      "lng": -117.365299165249,
-      "price": 5.19
-    },
-    {
       "id": "63237",
       "name": "76",
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 5.18
+      "price": 5.06
     },
     {
       "id": "10738",
@@ -123,22 +123,6 @@
       "price": 5.09
     },
     {
-      "id": "95818",
-      "name": "Chevron",
-      "address": "1421 N Pines Rd",
-      "lat": 47.67048,
-      "lng": -117.2401,
-      "price": 5.39
-    },
-    {
-      "id": "66238",
-      "name": "76",
-      "address": "1520 N Pines Rd",
-      "lat": 47.67146,
-      "lng": -117.23931,
-      "price": 5.19
-    },
-    {
       "id": "204322",
       "name": "Maverik",
       "address": "2125 N Pines Rd",
@@ -147,20 +131,12 @@
       "price": 5.19
     },
     {
-      "id": "166821",
-      "name": "76",
-      "address": "12309 E Mansfield Ave",
-      "lat": 47.677414,
-      "lng": -117.23951,
-      "price": 5.19
-    },
-    {
       "id": "96164",
       "name": "Circle K",
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.24
+      "price": 5.17
     },
     {
       "id": "11509",
@@ -169,38 +145,6 @@
       "lat": 47.656749,
       "lng": -117.260861,
       "price": 5.09
-    },
-    {
-      "id": "188811",
-      "name": "Indy Mart",
-      "address": "115 S Pines Rd   ",
-      "lat": 47.655608480889,
-      "lng": -117.239609509707,
-      "price": 5.29
-    },
-    {
-      "id": "66244",
-      "name": "Exxon",
-      "address": "520 S Pines Rd",
-      "lat": 47.651783705725,
-      "lng": -117.240251898766,
-      "price": 5.19
-    },
-    {
-      "id": "91129",
-      "name": "76",
-      "address": "1520 N Argonne Rd",
-      "lat": 47.67071,
-      "lng": -117.282615,
-      "price": 5.09
-    },
-    {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 5.18
     },
     {
       "id": "156921",
@@ -216,15 +160,7 @@
       "address": "2303 N Argonne Rd",
       "lat": 47.677604134263,
       "lng": -117.283086776733,
-      "price": 5.19
-    },
-    {
-      "id": "19224",
-      "name": "Conoco",
-      "address": "9219 E Sprague Ave",
-      "lat": 47.657293,
-      "lng": -117.280741,
-      "price": 5.19
+      "price": 5.07
     },
     {
       "id": "195888",
@@ -248,7 +184,7 @@
       "address": "10620 E 16th Ave",
       "lat": 47.6423,
       "lng": -117.2618,
-      "price": 5.49
+      "price": 5.29
     },
     {
       "id": "12551",
@@ -267,27 +203,11 @@
       "price": 5.03
     },
     {
-      "id": "63242",
-      "name": "Mobil",
-      "address": "13819 E Trent Ave",
-      "lat": 47.694714,
-      "lng": -117.219185,
-      "price": 5.15
-    },
-    {
       "id": "106607",
       "name": "Cenex",
       "address": "22304 E Appleway Ave",
       "lat": 47.671191,
       "lng": -117.105118,
-      "price": 5.19
-    },
-    {
-      "id": "75994",
-      "name": "Chevron",
-      "address": "1109 N Liberty Lake Rd",
-      "lat": 47.667609,
-      "lng": -117.105345,
       "price": 5.19
     },
     {
@@ -339,30 +259,6 @@
       "price": 5.15
     },
     {
-      "id": "66251",
-      "name": "76",
-      "address": "1007 N Sullivan Rd",
-      "lat": 47.666438,
-      "lng": -117.197024,
-      "price": 5.29
-    },
-    {
-      "id": "35657",
-      "name": "Fred Meyer",
-      "address": "15609 E Sprague Ave",
-      "lat": 47.657565,
-      "lng": -117.194063,
-      "price": 5.08
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 5.11
-    },
-    {
       "id": "126248",
       "name": "A-1 Smoke Shop",
       "address": "7200 W Seltice Way",
@@ -376,7 +272,7 @@
       "address": "25105 E Trent Ave",
       "lat": 47.724703328157,
       "lng": -117.068322300911,
-      "price": 5.5
+      "price": 5.49
     },
     {
       "id": "196309",
@@ -392,7 +288,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 4.44
+      "price": 4.24
     },
     {
       "id": "198986",
