@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13 06:00:24 PDT",
-  "timestamp": 1781355624,
+  "updated": "2026-06-14 06:00:19 PDT",
+  "timestamp": 1781442019,
   "stations": [
     {
       "id": "98956",
@@ -27,6 +27,14 @@
       "price": 5.09
     },
     {
+      "id": "19227",
+      "name": "Conoco",
+      "address": "925 E Wellesley Ave",
+      "lat": 47.70076553247,
+      "lng": -117.39565372467,
+      "price": 4.99
+    },
+    {
       "id": "209744",
       "name": "JK Gas & Grocery",
       "address": "4617 N Nevada St",
@@ -48,7 +56,7 @@
       "address": "902 W Francis Ave",
       "lat": 47.715388674519,
       "lng": -117.424959540367,
-      "price": 4.99
+      "price": 4.95
     },
     {
       "id": "195913",
@@ -64,7 +72,7 @@
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 5.06
+      "price": 4.96
     },
     {
       "id": "18325",
@@ -72,7 +80,15 @@
       "address": "1023 W Wellesley Ave",
       "lat": 47.700404504475,
       "lng": -117.426810264587,
-      "price": 4.99
+      "price": 4.96
+    },
+    {
+      "id": "10738",
+      "name": "NomNom",
+      "address": "7902 N Division St",
+      "lat": 47.729672146348,
+      "lng": -117.410953044891,
+      "price": 4.93
     },
     {
       "id": "212851",
@@ -115,12 +131,28 @@
       "price": 4.93
     },
     {
+      "id": "166821",
+      "name": "76",
+      "address": "12309 E Mansfield Ave",
+      "lat": 47.677414,
+      "lng": -117.23951,
+      "price": 4.93
+    },
+    {
       "id": "96164",
       "name": "Circle K",
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.08
+      "price": 4.99
+    },
+    {
+      "id": "109599",
+      "name": "Broadway Mini Market",
+      "address": "10304 E Broadway Ave",
+      "lat": 47.664254,
+      "lng": -117.266445,
+      "price": 5.39
     },
     {
       "id": "11509",
@@ -160,7 +192,7 @@
       "address": "2303 N Argonne Rd",
       "lat": 47.677604134263,
       "lng": -117.283086776733,
-      "price": 5.05
+      "price": 4.96
     },
     {
       "id": "19224",
@@ -211,12 +243,12 @@
       "price": 4.88
     },
     {
-      "id": "75994",
-      "name": "Chevron",
-      "address": "1109 N Liberty Lake Rd",
-      "lat": 47.667609,
-      "lng": -117.105345,
-      "price": 5.19
+      "id": "106607",
+      "name": "Cenex",
+      "address": "22304 E Appleway Ave",
+      "lat": 47.671191,
+      "lng": -117.105118,
+      "price": 5.09
     },
     {
       "id": "214429",
@@ -224,7 +256,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 5.07
+      "price": 4.99
     },
     {
       "id": "73457",
@@ -232,7 +264,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 5.05
+      "price": 4.97
     },
     {
       "id": "98601",
@@ -243,28 +275,12 @@
       "price": 4.99
     },
     {
-      "id": "19226",
-      "name": "Mobil",
-      "address": "18616 E Appleway Ave",
-      "lat": 47.660607,
-      "lng": -117.153911,
-      "price": 4.94
-    },
-    {
-      "id": "94376",
-      "name": "Conoco",
-      "address": "17128 E Sprague Ave",
-      "lat": 47.65668,
-      "lng": -117.1727,
-      "price": 4.98
-    },
-    {
       "id": "98600",
       "name": "Chevron",
       "address": "1010 N Sullivan Rd",
       "lat": 47.666418,
       "lng": -117.196134,
-      "price": 5.09
+      "price": 4.99
     },
     {
       "id": "195980",
@@ -281,6 +297,14 @@
       "lat": 47.657565,
       "lng": -117.194063,
       "price": 4.93
+    },
+    {
+      "id": "108791",
+      "name": "Nom No",
+      "address": "15504 E 4th Ave",
+      "lat": 47.653007,
+      "lng": -117.19633,
+      "price": 4.94
     },
     {
       "id": "126248",
@@ -304,7 +328,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.23
+      "price": 4.19
     },
     {
       "id": "210449",
@@ -328,7 +352,7 @@
       "address": "4000 W Riverbend Ave",
       "lat": 47.707704004728,
       "lng": -117.002356052399,
-      "price": 4.29
+      "price": 4.25
     },
     {
       "id": "140817",
