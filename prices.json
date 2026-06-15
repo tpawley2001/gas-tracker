@@ -1,15 +1,7 @@
 {
-  "updated": "2026-06-14 06:00:19 PDT",
-  "timestamp": 1781442019,
+  "updated": "2026-06-15 06:01:03 PDT",
+  "timestamp": 1781528463,
   "stations": [
-    {
-      "id": "98956",
-      "name": "Exxon",
-      "address": "924 E Francis Ave",
-      "lat": 47.71493,
-      "lng": -117.39593,
-      "price": 5.09
-    },
     {
       "id": "194686",
       "name": "Maverik",
@@ -35,11 +27,19 @@
       "price": 4.99
     },
     {
-      "id": "209744",
-      "name": "JK Gas & Grocery",
-      "address": "4617 N Nevada St",
-      "lat": 47.700532063012,
-      "lng": -117.395672,
+      "id": "145365",
+      "name": "76",
+      "address": "1703 E Francis Ave",
+      "lat": 47.71525,
+      "lng": -117.38436,
+      "price": 4.94
+    },
+    {
+      "id": "69122",
+      "name": "NomNom",
+      "address": "4615 N Division St",
+      "lat": 47.700363587774,
+      "lng": -117.411559224129,
       "price": 4.99
     },
     {
@@ -120,7 +120,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 4.97
+      "price": 4.93
     },
     {
       "id": "204322",
@@ -153,22 +153,6 @@
       "lat": 47.664254,
       "lng": -117.266445,
       "price": 5.39
-    },
-    {
-      "id": "11509",
-      "name": "Cenex",
-      "address": "10708 E Sprague Ave",
-      "lat": 47.656749,
-      "lng": -117.260861,
-      "price": 4.99
-    },
-    {
-      "id": "188811",
-      "name": "Indy Mart",
-      "address": "115 S Pines Rd   ",
-      "lat": 47.655608480889,
-      "lng": -117.239609509707,
-      "price": 5.09
     },
     {
       "id": "91129",
@@ -219,20 +203,12 @@
       "price": 4.99
     },
     {
-      "id": "148024",
-      "name": "Exxon",
-      "address": "10620 E 16th Ave",
-      "lat": 47.6423,
-      "lng": -117.2618,
-      "price": 5.29
-    },
-    {
       "id": "12551",
       "name": "Cenex",
       "address": "8215 E Trent Ave",
       "lat": 47.679026,
       "lng": -117.293936,
-      "price": 4.99
+      "price": 4.89
     },
     {
       "id": "63243",
@@ -272,7 +248,15 @@
       "address": "18709 E Appleway Ave",
       "lat": 47.66079,
       "lng": -117.15322,
-      "price": 4.99
+      "price": 4.89
+    },
+    {
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 4.84
     },
     {
       "id": "98600",
@@ -291,12 +275,12 @@
       "price": 4.94
     },
     {
-      "id": "35657",
-      "name": "Fred Meyer",
-      "address": "15609 E Sprague Ave",
-      "lat": 47.657565,
-      "lng": -117.194063,
-      "price": 4.93
+      "id": "73455",
+      "name": "Amerimart",
+      "address": "3620 N Sullivan Rd",
+      "lat": 47.68994,
+      "lng": -117.19641,
+      "price": 4.89
     },
     {
       "id": "108791",
@@ -328,7 +312,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.19
+      "price": 4.15
     },
     {
       "id": "210449",
@@ -347,6 +331,14 @@
       "price": 4.19
     },
     {
+      "id": "108254",
+      "name": "Liberty",
+      "address": "6902 W Seltice Way",
+      "lat": 47.703826949374,
+      "lng": -117.038147449493,
+      "price": 4.15
+    },
+    {
       "id": "26894",
       "name": "Exxon",
       "address": "4000 W Riverbend Ave",
@@ -360,7 +352,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 4.19
+      "price": 4.29
     },
     {
       "id": "31594",
@@ -368,7 +360,7 @@
       "address": "4100 W Expo Pkwy",
       "lat": 47.712389297562,
       "lng": -117.002398967743,
-      "price": 4.25
+      "price": 4.19
     },
     {
       "id": "9102",
@@ -387,12 +379,12 @@
       "price": 4.19
     },
     {
-      "id": "124106",
-      "name": "Cenex",
-      "address": "606 W Mullan Ave",
-      "lat": 47.7160964,
-      "lng": -116.9562452,
-      "price": 4.19
+      "id": "108256",
+      "name": "Handy Mart",
+      "address": "312 N Spokane St",
+      "lat": 47.710360740197,
+      "lng": -116.947821378708,
+      "price": 4.29
     },
     {
       "id": "11555",
