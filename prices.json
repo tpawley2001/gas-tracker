@@ -1,14 +1,22 @@
 {
-  "updated": "2026-06-15 06:01:03 PDT",
-  "timestamp": 1781528463,
+  "updated": "2026-06-16 06:00:53 PDT",
+  "timestamp": 1781614853,
   "stations": [
+    {
+      "id": "98956",
+      "name": "Exxon",
+      "address": "924 E Francis Ave",
+      "lat": 47.71493,
+      "lng": -117.39593,
+      "price": 4.94
+    },
     {
       "id": "194686",
       "name": "Maverik",
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.94
+      "price": 4.91
     },
     {
       "id": "38222",
@@ -17,14 +25,6 @@
       "lat": 47.70085,
       "lng": -117.39463,
       "price": 5.09
-    },
-    {
-      "id": "19227",
-      "name": "Conoco",
-      "address": "925 E Wellesley Ave",
-      "lat": 47.70076553247,
-      "lng": -117.39565372467,
-      "price": 4.99
     },
     {
       "id": "145365",
@@ -51,12 +51,20 @@
       "price": 4.93
     },
     {
+      "id": "134179",
+      "name": "76",
+      "address": "618 W Francis Ave",
+      "lat": 47.715366363525,
+      "lng": -117.421600341797,
+      "price": 4.93
+    },
+    {
       "id": "33576",
       "name": "Safeway",
       "address": "902 W Francis Ave",
       "lat": 47.715388674519,
       "lng": -117.424959540367,
-      "price": 4.95
+      "price": 4.94
     },
     {
       "id": "195913",
@@ -72,7 +80,7 @@
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 4.96
+      "price": 4.93
     },
     {
       "id": "18325",
@@ -80,15 +88,7 @@
       "address": "1023 W Wellesley Ave",
       "lat": 47.700404504475,
       "lng": -117.426810264587,
-      "price": 4.96
-    },
-    {
-      "id": "10738",
-      "name": "NomNom",
-      "address": "7902 N Division St",
-      "lat": 47.729672146348,
-      "lng": -117.410953044891,
-      "price": 4.93
+      "price": 4.81
     },
     {
       "id": "212851",
@@ -144,7 +144,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.99
+      "price": 5.01
     },
     {
       "id": "109599",
@@ -155,6 +155,22 @@
       "price": 5.39
     },
     {
+      "id": "11509",
+      "name": "Cenex",
+      "address": "10708 E Sprague Ave",
+      "lat": 47.656749,
+      "lng": -117.260861,
+      "price": 4.89
+    },
+    {
+      "id": "66244",
+      "name": "Exxon",
+      "address": "520 S Pines Rd",
+      "lat": 47.651783705725,
+      "lng": -117.240251898766,
+      "price": 4.99
+    },
+    {
       "id": "91129",
       "name": "76",
       "address": "1520 N Argonne Rd",
@@ -163,12 +179,20 @@
       "price": 4.98
     },
     {
+      "id": "66252",
+      "name": "Exxon",
+      "address": "13823 E Broadway Ave",
+      "lat": 47.664520297117,
+      "lng": -117.218394577503,
+      "price": 4.79
+    },
+    {
       "id": "156921",
       "name": "Maverik",
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.93
+      "price": 4.88
     },
     {
       "id": "79191",
@@ -203,6 +227,14 @@
       "price": 4.99
     },
     {
+      "id": "148024",
+      "name": "Exxon",
+      "address": "10620 E 16th Ave",
+      "lat": 47.6423,
+      "lng": -117.2618,
+      "price": 5.09
+    },
+    {
       "id": "12551",
       "name": "Cenex",
       "address": "8215 E Trent Ave",
@@ -227,12 +259,20 @@
       "price": 5.09
     },
     {
+      "id": "75994",
+      "name": "Chevron",
+      "address": "1109 N Liberty Lake Rd",
+      "lat": 47.667609,
+      "lng": -117.105345,
+      "price": 4.99
+    },
+    {
       "id": "214429",
       "name": "Circle K",
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 4.99
+      "price": 4.97
     },
     {
       "id": "73457",
@@ -259,20 +299,20 @@
       "price": 4.84
     },
     {
-      "id": "98600",
-      "name": "Chevron",
-      "address": "1010 N Sullivan Rd",
-      "lat": 47.666418,
-      "lng": -117.196134,
-      "price": 4.99
-    },
-    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 4.94
+      "price": 4.89
+    },
+    {
+      "id": "35657",
+      "name": "Fred Meyer",
+      "address": "15609 E Sprague Ave",
+      "lat": 47.657565,
+      "lng": -117.194063,
+      "price": 4.89
     },
     {
       "id": "73455",
@@ -281,14 +321,6 @@
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.89
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 4.94
     },
     {
       "id": "126248",
@@ -312,7 +344,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.15
+      "price": 4.11
     },
     {
       "id": "210449",
@@ -352,7 +384,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 4.29
+      "price": 4.19
     },
     {
       "id": "31594",
