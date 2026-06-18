@@ -1,22 +1,14 @@
 {
-  "updated": "2026-06-17 06:01:45 PDT",
-  "timestamp": 1781701305,
+  "updated": "2026-06-18 06:01:13 PDT",
+  "timestamp": 1781787673,
   "stations": [
-    {
-      "id": "98956",
-      "name": "Exxon",
-      "address": "924 E Francis Ave",
-      "lat": 47.71493,
-      "lng": -117.39593,
-      "price": 4.94
-    },
     {
       "id": "194686",
       "name": "Maverik",
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.87
+      "price": 4.85
     },
     {
       "id": "38222",
@@ -27,12 +19,20 @@
       "price": 4.99
     },
     {
+      "id": "145365",
+      "name": "76",
+      "address": "1703 E Francis Ave",
+      "lat": 47.71525,
+      "lng": -117.38436,
+      "price": 4.89
+    },
+    {
       "id": "203661",
       "name": "Maverik",
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.87
+      "price": 4.85
     },
     {
       "id": "134179",
@@ -40,7 +40,15 @@
       "address": "618 W Francis Ave",
       "lat": 47.715366363525,
       "lng": -117.421600341797,
-      "price": 4.93
+      "price": 4.87
+    },
+    {
+      "id": "88056",
+      "name": "Conoco",
+      "address": "3219 N Nevada St",
+      "lat": 47.68830501074,
+      "lng": -117.395380139351,
+      "price": 4.77
     },
     {
       "id": "33576",
@@ -64,7 +72,7 @@
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 4.93
+      "price": 4.96
     },
     {
       "id": "18325",
@@ -72,7 +80,7 @@
       "address": "1023 W Wellesley Ave",
       "lat": 47.700404504475,
       "lng": -117.426810264587,
-      "price": 4.81
+      "price": 4.89
     },
     {
       "id": "10738",
@@ -88,7 +96,7 @@
       "address": "2667 N Hamilton St",
       "lat": 47.683052715658,
       "lng": -117.397181731507,
-      "price": 4.89
+      "price": 4.77
     },
     {
       "id": "210180",
@@ -96,7 +104,23 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.87
+      "price": 4.83
+    },
+    {
+      "id": "95818",
+      "name": "Chevron",
+      "address": "1421 N Pines Rd",
+      "lat": 47.67048,
+      "lng": -117.2401,
+      "price": 4.99
+    },
+    {
+      "id": "66238",
+      "name": "76",
+      "address": "1520 N Pines Rd",
+      "lat": 47.67146,
+      "lng": -117.23931,
+      "price": 4.83
     },
     {
       "id": "204322",
@@ -104,7 +128,15 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.93
+      "price": 4.89
+    },
+    {
+      "id": "166821",
+      "name": "76",
+      "address": "12309 E Mansfield Ave",
+      "lat": 47.677414,
+      "lng": -117.23951,
+      "price": 4.89
     },
     {
       "id": "96164",
@@ -112,7 +144,15 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.99
+      "price": 4.83
+    },
+    {
+      "id": "109599",
+      "name": "Broadway Mini Market",
+      "address": "10304 E Broadway Ave",
+      "lat": 47.664254,
+      "lng": -117.266445,
+      "price": 5.39
     },
     {
       "id": "11509",
@@ -131,28 +171,12 @@
       "price": 4.99
     },
     {
-      "id": "66244",
-      "name": "Exxon",
-      "address": "520 S Pines Rd",
-      "lat": 47.651783705725,
-      "lng": -117.240251898766,
-      "price": 4.99
-    },
-    {
       "id": "91129",
       "name": "76",
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
       "price": 4.89
-    },
-    {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 4.79
     },
     {
       "id": "156921",
@@ -169,6 +193,14 @@
       "lat": 47.677604134263,
       "lng": -117.283086776733,
       "price": 4.91
+    },
+    {
+      "id": "19224",
+      "name": "Conoco",
+      "address": "9219 E Sprague Ave",
+      "lat": 47.657293,
+      "lng": -117.280741,
+      "price": 4.89
     },
     {
       "id": "195888",
@@ -208,7 +240,7 @@
       "address": "14704 E Sprague  Ave",
       "lat": 47.656763,
       "lng": -117.206933,
-      "price": 4.83
+      "price": 4.78
     },
     {
       "id": "63242",
@@ -240,7 +272,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 4.97
+      "price": 4.89
     },
     {
       "id": "73457",
@@ -248,7 +280,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.97
+      "price": 4.95
     },
     {
       "id": "98601",
@@ -259,12 +291,20 @@
       "price": 4.89
     },
     {
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 4.84
+    },
+    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 4.84
+      "price": 4.82
     },
     {
       "id": "35657",
@@ -272,7 +312,7 @@
       "address": "15609 E Sprague Ave",
       "lat": 47.657565,
       "lng": -117.194063,
-      "price": 4.89
+      "price": 4.83
     },
     {
       "id": "73455",
@@ -280,15 +320,7 @@
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
-      "price": 4.84
-    },
-    {
-      "id": "126248",
-      "name": "A-1 Smoke Shop",
-      "address": "7200 W Seltice Way",
-      "lat": 47.701884703366,
-      "lng": -117.040207386016,
-      "price": 4.15
+      "price": 4.76
     },
     {
       "id": "66156",
@@ -304,7 +336,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.1
+      "price": 4.59
     },
     {
       "id": "210449",
@@ -371,12 +403,20 @@
       "price": 4.22
     },
     {
+      "id": "108256",
+      "name": "Handy Mart",
+      "address": "312 N Spokane St",
+      "lat": 47.710360740197,
+      "lng": -116.947821378708,
+      "price": 4.19
+    },
+    {
       "id": "11555",
       "name": "Exxon",
       "address": "701 N Spokane St",
       "lat": 47.714158,
       "lng": -116.94818,
-      "price": 4.29
+      "price": 4.19
     },
     {
       "id": "110392",
@@ -385,14 +425,6 @@
       "lat": 47.745686772663,
       "lng": -117.019779682159,
       "price": 4.19
-    },
-    {
-      "id": "47945",
-      "name": "76",
-      "address": "211 E Seltice Way",
-      "lat": 47.7154933428,
-      "lng": -116.946179866791,
-      "price": 4.29
     }
   ]
 }
