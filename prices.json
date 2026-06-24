@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23 06:00:49 PDT",
-  "timestamp": 1782219649,
+  "updated": "2026-06-24 06:00:26 PDT",
+  "timestamp": 1782306026,
   "stations": [
     {
       "id": "194686",
@@ -8,7 +8,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.73
+      "price": 4.63
     },
     {
       "id": "38222",
@@ -16,7 +16,7 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 4.87
+      "price": 4.83
     },
     {
       "id": "66249",
@@ -40,7 +40,7 @@
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.73
+      "price": 4.63
     },
     {
       "id": "134179",
@@ -72,7 +72,7 @@
       "address": " 3021 E Wellesley Ave",
       "lat": 47.70087925577,
       "lng": -117.365299165249,
-      "price": 4.89
+      "price": 4.85
     },
     {
       "id": "63237",
@@ -104,7 +104,7 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.68
+      "price": 4.63
     },
     {
       "id": "95818",
@@ -128,15 +128,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.69
-    },
-    {
-      "id": "166821",
-      "name": "76",
-      "address": "12309 E Mansfield Ave",
-      "lat": 47.677414,
-      "lng": -117.23951,
-      "price": 4.79
+      "price": 4.62
     },
     {
       "id": "96164",
@@ -144,7 +136,15 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.77
+      "price": 4.75
+    },
+    {
+      "id": "109599",
+      "name": "Broadway Mini Market",
+      "address": "10304 E Broadway Ave",
+      "lat": 47.664254,
+      "lng": -117.266445,
+      "price": 4.89
     },
     {
       "id": "11509",
@@ -184,7 +184,7 @@
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
-      "price": 4.62
+      "price": 4.53
     },
     {
       "id": "156921",
@@ -200,7 +200,7 @@
       "address": "2303 N Argonne Rd",
       "lat": 47.677604134263,
       "lng": -117.283086776733,
-      "price": 4.75
+      "price": 4.64
     },
     {
       "id": "19224",
@@ -216,7 +216,7 @@
       "address": "9009 E Montgomery Avenue",
       "lat": 47.678738,
       "lng": -117.284017,
-      "price": 4.62
+      "price": 4.53
     },
     {
       "id": "77523",
@@ -241,6 +241,14 @@
       "lat": 47.679026,
       "lng": -117.293936,
       "price": 4.74
+    },
+    {
+      "id": "63243",
+      "name": "Mobil",
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
+      "price": 4.57
     },
     {
       "id": "63242",
@@ -280,15 +288,15 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.77
+      "price": 4.67
     },
     {
-      "id": "98601",
-      "name": "Exxon",
-      "address": "18709 E Appleway Ave",
-      "lat": 47.66079,
-      "lng": -117.15322,
-      "price": 4.79
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 4.74
     },
     {
       "id": "98600",
@@ -304,7 +312,7 @@
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 4.59
+      "price": 4.54
     },
     {
       "id": "35657",
@@ -320,7 +328,23 @@
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
-      "price": 4.59
+      "price": 4.49
+    },
+    {
+      "id": "108791",
+      "name": "Nom No",
+      "address": "15504 E 4th Ave",
+      "lat": 47.653007,
+      "lng": -117.19633,
+      "price": 4.76
+    },
+    {
+      "id": "126248",
+      "name": "A-1 Smoke Shop",
+      "address": "7200 W Seltice Way",
+      "lat": 47.701884703366,
+      "lng": -117.040207386016,
+      "price": 3.9
     },
     {
       "id": "66156",
@@ -336,7 +360,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.05
+      "price": 3.9
     },
     {
       "id": "210449",
@@ -344,7 +368,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "198986",
@@ -352,7 +376,7 @@
       "address": "5992 W Point Parkway",
       "lat": 47.702447,
       "lng": -117.028733,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "108254",
@@ -368,7 +392,7 @@
       "address": "4000 W Riverbend Ave",
       "lat": 47.707704004728,
       "lng": -117.002356052399,
-      "price": 4.15
+      "price": 4.05
     },
     {
       "id": "140817",
@@ -376,7 +400,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "31594",
@@ -384,7 +408,7 @@
       "address": "4100 W Expo Pkwy",
       "lat": 47.712389297562,
       "lng": -117.002398967743,
-      "price": 4.11
+      "price": 4.05
     },
     {
       "id": "9102",
@@ -392,7 +416,7 @@
       "address": "3636 W 5th Ave",
       "lat": 47.711364200151,
       "lng": -116.996970176697,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "214490",
@@ -432,7 +456,7 @@
       "address": "26913 W ID-53",
       "lat": 47.745686772663,
       "lng": -117.019779682159,
-      "price": 4.19
+      "price": 4.09
     },
     {
       "id": "47945",
