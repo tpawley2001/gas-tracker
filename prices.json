@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-30 06:00:41 PDT",
-  "timestamp": 1782824441,
+  "updated": "2026-07-01 06:04:00 PDT",
+  "timestamp": 1782911040,
   "stations": [
     {
       "id": "194686",
@@ -8,7 +8,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.53
+      "price": 4.48
     },
     {
       "id": "38222",
@@ -16,15 +16,7 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 4.58
-    },
-    {
-      "id": "69122",
-      "name": "NomNom",
-      "address": "4615 N Division St",
-      "lat": 47.700363587774,
-      "lng": -117.411559224129,
-      "price": 4.57
+      "price": 4.68
     },
     {
       "id": "203661",
@@ -32,15 +24,7 @@
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.53
-    },
-    {
-      "id": "88056",
-      "name": "Conoco",
-      "address": "3219 N Nevada St",
-      "lat": 47.68830501074,
-      "lng": -117.395380139351,
-      "price": 4.49
+      "price": 4.48
     },
     {
       "id": "195913",
@@ -48,7 +32,7 @@
       "address": " 3021 E Wellesley Ave",
       "lat": 47.70087925577,
       "lng": -117.365299165249,
-      "price": 4.79
+      "price": 4.69
     },
     {
       "id": "63237",
@@ -72,7 +56,7 @@
       "address": "2667 N Hamilton St",
       "lat": 47.683052715658,
       "lng": -117.397181731507,
-      "price": 4.57
+      "price": 4.49
     },
     {
       "id": "210180",
@@ -80,7 +64,7 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.53
+      "price": 4.48
     },
     {
       "id": "95818",
@@ -96,7 +80,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 4.53
+      "price": 4.44
     },
     {
       "id": "204322",
@@ -107,12 +91,28 @@
       "price": 4.44
     },
     {
+      "id": "166821",
+      "name": "76",
+      "address": "12309 E Mansfield Ave",
+      "lat": 47.677414,
+      "lng": -117.23951,
+      "price": 4.44
+    },
+    {
       "id": "96164",
       "name": "Circle K",
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.55
+      "price": 4.52
+    },
+    {
+      "id": "109599",
+      "name": "Broadway Mini Market",
+      "address": "10304 E Broadway Ave",
+      "lat": 47.664254,
+      "lng": -117.266445,
+      "price": 4.69
     },
     {
       "id": "11509",
@@ -120,7 +120,7 @@
       "address": "10708 E Sprague Ave",
       "lat": 47.656749,
       "lng": -117.260861,
-      "price": 4.44
+      "price": 4.35
     },
     {
       "id": "188811",
@@ -128,15 +128,15 @@
       "address": "115 S Pines Rd   ",
       "lat": 47.655608480889,
       "lng": -117.239609509707,
-      "price": 4.49
+      "price": 4.59
     },
     {
-      "id": "66244",
+      "id": "66252",
       "name": "Exxon",
-      "address": "520 S Pines Rd",
-      "lat": 47.651783705725,
-      "lng": -117.240251898766,
-      "price": 4.49
+      "address": "13823 E Broadway Ave",
+      "lat": 47.664520297117,
+      "lng": -117.218394577503,
+      "price": 4.48
     },
     {
       "id": "91129",
@@ -144,7 +144,7 @@
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
-      "price": 4.44
+      "price": 4.35
     },
     {
       "id": "156921",
@@ -152,15 +152,7 @@
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.48
-    },
-    {
-      "id": "79191",
-      "name": "Circle K",
-      "address": "2303 N Argonne Rd",
-      "lat": 47.677604134263,
-      "lng": -117.283086776733,
-      "price": 4.44
+      "price": 4.39
     },
     {
       "id": "19224",
@@ -192,23 +184,15 @@
       "address": "10620 E 16th Ave",
       "lat": 47.6423,
       "lng": -117.2618,
-      "price": 4.79
-    },
-    {
-      "id": "12551",
-      "name": "Cenex",
-      "address": "8215 E Trent Ave",
-      "lat": 47.679026,
-      "lng": -117.293936,
-      "price": 4.44
-    },
-    {
-      "id": "106607",
-      "name": "Cenex",
-      "address": "22304 E Appleway Ave",
-      "lat": 47.671191,
-      "lng": -117.105118,
       "price": 4.69
+    },
+    {
+      "id": "63243",
+      "name": "Mobil",
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
+      "price": 4.39
     },
     {
       "id": "214429",
@@ -224,7 +208,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.55
+      "price": 4.57
     },
     {
       "id": "207352",
@@ -235,20 +219,20 @@
       "price": 4.79
     },
     {
-      "id": "19226",
-      "name": "Mobil",
-      "address": "18616 E Appleway Ave",
-      "lat": 47.660607,
-      "lng": -117.153911,
-      "price": 4.44
-    },
-    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 4.47
+      "price": 4.42
+    },
+    {
+      "id": "66251",
+      "name": "76",
+      "address": "1007 N Sullivan Rd",
+      "lat": 47.666438,
+      "lng": -117.197024,
+      "price": 4.59
     },
     {
       "id": "35657",
@@ -273,14 +257,6 @@
       "lat": 47.701884703366,
       "lng": -117.040207386016,
       "price": 3.8
-    },
-    {
-      "id": "66156",
-      "name": "Exxon",
-      "address": "25105 E Trent Ave",
-      "lat": 47.724703328157,
-      "lng": -117.068322300911,
-      "price": 4.69
     },
     {
       "id": "196309",
@@ -313,6 +289,14 @@
       "lat": 47.703826949374,
       "lng": -117.038147449493,
       "price": 3.8
+    },
+    {
+      "id": "26894",
+      "name": "Exxon",
+      "address": "4000 W Riverbend Ave",
+      "lat": 47.707704004728,
+      "lng": -117.002356052399,
+      "price": 3.99
     },
     {
       "id": "140817",
@@ -360,7 +344,7 @@
       "address": "26913 W ID-53",
       "lat": 47.745686772663,
       "lng": -117.019779682159,
-      "price": 3.99
+      "price": 3.89
     }
   ]
 }
