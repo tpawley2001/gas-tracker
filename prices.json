@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09 06:00:53 PDT",
-  "timestamp": 1783602053,
+  "updated": "2026-07-10 06:00:55 PDT",
+  "timestamp": 1783688455,
   "stations": [
     {
       "id": "194686",
@@ -8,15 +8,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.28
-    },
-    {
-      "id": "38222",
-      "name": "AmeriPride",
-      "address": "1001 E Wellesley Ave",
-      "lat": 47.70085,
-      "lng": -117.39463,
-      "price": 4.43
+      "price": 4.23
     },
     {
       "id": "66249",
@@ -32,7 +24,7 @@
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.28
+      "price": 4.23
     },
     {
       "id": "195913",
@@ -48,7 +40,7 @@
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 4.48
+      "price": 4.35
     },
     {
       "id": "10738",
@@ -72,7 +64,7 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.28
+      "price": 4.23
     },
     {
       "id": "95818",
@@ -88,7 +80,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 4.35
+      "price": 4.26
     },
     {
       "id": "204322",
@@ -96,7 +88,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.35
+      "price": 4.26
     },
     {
       "id": "96164",
@@ -104,7 +96,15 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.36
+      "price": 4.25
+    },
+    {
+      "id": "109599",
+      "name": "Broadway Mini Market",
+      "address": "10304 E Broadway Ave",
+      "lat": 47.664254,
+      "lng": -117.266445,
+      "price": 4.59
     },
     {
       "id": "11509",
@@ -120,15 +120,7 @@
       "address": "115 S Pines Rd   ",
       "lat": 47.655608480889,
       "lng": -117.239609509707,
-      "price": 4.39
-    },
-    {
-      "id": "66244",
-      "name": "Exxon",
-      "address": "520 S Pines Rd",
-      "lat": 47.651783705725,
-      "lng": -117.240251898766,
-      "price": 4.39
+      "price": 4.29
     },
     {
       "id": "91129",
@@ -163,28 +155,20 @@
       "price": 4.26
     },
     {
-      "id": "77523",
-      "name": "Chevron",
-      "address": "3409 N Argonne Rd",
-      "lat": 47.688084731329,
-      "lng": -117.283022403717,
-      "price": 4.59
-    },
-    {
-      "id": "148024",
-      "name": "Exxon",
-      "address": "10620 E 16th Ave",
-      "lat": 47.6423,
-      "lng": -117.2618,
-      "price": 4.69
-    },
-    {
       "id": "12551",
       "name": "Cenex",
       "address": "8215 E Trent Ave",
       "lat": 47.679026,
       "lng": -117.293936,
       "price": 4.11
+    },
+    {
+      "id": "63243",
+      "name": "Mobil",
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
+      "price": 4.24
     },
     {
       "id": "214429",
@@ -216,7 +200,7 @@
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 4.33
+      "price": 4.31
     },
     {
       "id": "126248",
@@ -259,19 +243,19 @@
       "price": 3.85
     },
     {
+      "id": "26894",
+      "name": "Exxon",
+      "address": "4000 W Riverbend Ave",
+      "lat": 47.707704004728,
+      "lng": -117.002356052399,
+      "price": 3.89
+    },
+    {
       "id": "140817",
       "name": "Love's Travel Stop",
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 3.85
-    },
-    {
-      "id": "31594",
-      "name": "Exxon",
-      "address": "4100 W Expo Pkwy",
-      "lat": 47.712389297562,
-      "lng": -117.002398967743,
       "price": 3.85
     },
     {
@@ -288,7 +272,7 @@
       "address": "768 N Pleasant View Rd",
       "lat": 47.71600557013,
       "lng": -117.000863735582,
-      "price": 3.89
+      "price": 3.85
     },
     {
       "id": "124106",
@@ -296,6 +280,14 @@
       "address": "606 W Mullan Ave",
       "lat": 47.7160964,
       "lng": -116.9562452,
+      "price": 3.79
+    },
+    {
+      "id": "108256",
+      "name": "Handy Mart",
+      "address": "312 N Spokane St",
+      "lat": 47.710360740197,
+      "lng": -116.947821378708,
       "price": 3.79
     },
     {
@@ -312,7 +304,7 @@
       "address": "211 E Seltice Way",
       "lat": 47.7154933428,
       "lng": -116.946179866791,
-      "price": 3.69
+      "price": 3.79
     }
   ]
 }
