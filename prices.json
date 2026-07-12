@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11 06:00:24 PDT",
-  "timestamp": 1783774824,
+  "updated": "2026-07-12 06:00:54 PDT",
+  "timestamp": 1783861254,
   "stations": [
     {
       "id": "98956",
@@ -43,6 +43,14 @@
       "price": 4.39
     },
     {
+      "id": "69122",
+      "name": "NomNom",
+      "address": "4615 N Division St",
+      "lat": 47.700363587774,
+      "lng": -117.411559224129,
+      "price": 4.29
+    },
+    {
       "id": "203661",
       "name": "Maverik",
       "address": "6710 N Division St",
@@ -57,6 +65,14 @@
       "lat": 47.711010464674,
       "lng": -117.365001440048,
       "price": 4.39
+    },
+    {
+      "id": "88056",
+      "name": "Conoco",
+      "address": "3219 N Nevada St",
+      "lat": 47.68830501074,
+      "lng": -117.395380139351,
+      "price": 4.27
     },
     {
       "id": "195913",
@@ -91,22 +107,6 @@
       "price": 4.23
     },
     {
-      "id": "95818",
-      "name": "Chevron",
-      "address": "1421 N Pines Rd",
-      "lat": 47.67048,
-      "lng": -117.2401,
-      "price": 4.45
-    },
-    {
-      "id": "66238",
-      "name": "76",
-      "address": "1520 N Pines Rd",
-      "lat": 47.67146,
-      "lng": -117.23931,
-      "price": 4.26
-    },
-    {
       "id": "204322",
       "name": "Maverik",
       "address": "2125 N Pines Rd",
@@ -120,7 +120,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.25
+      "price": 4.35
     },
     {
       "id": "109599",
@@ -179,6 +179,14 @@
       "price": 4.32
     },
     {
+      "id": "19224",
+      "name": "Conoco",
+      "address": "9219 E Sprague Ave",
+      "lat": 47.657293,
+      "lng": -117.280741,
+      "price": 4.59
+    },
+    {
       "id": "195888",
       "name": "Maverik",
       "address": "9009 E Montgomery Avenue",
@@ -195,20 +203,20 @@
       "price": 4.59
     },
     {
+      "id": "148024",
+      "name": "Exxon",
+      "address": "10620 E 16th Ave",
+      "lat": 47.6423,
+      "lng": -117.2618,
+      "price": 4.69
+    },
+    {
       "id": "12551",
       "name": "Cenex",
       "address": "8215 E Trent Ave",
       "lat": 47.679026,
       "lng": -117.293936,
       "price": 4.26
-    },
-    {
-      "id": "63243",
-      "name": "Mobil",
-      "address": "14704 E Sprague  Ave",
-      "lat": 47.656763,
-      "lng": -117.206933,
-      "price": 4.24
     },
     {
       "id": "214429",
@@ -227,6 +235,22 @@
       "price": 4.45
     },
     {
+      "id": "98601",
+      "name": "Exxon",
+      "address": "18709 E Appleway Ave",
+      "lat": 47.66079,
+      "lng": -117.15322,
+      "price": 4.29
+    },
+    {
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 4.24
+    },
+    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
@@ -241,6 +265,14 @@
       "lat": 47.657565,
       "lng": -117.194063,
       "price": 4.24
+    },
+    {
+      "id": "73455",
+      "name": "Amerimart",
+      "address": "3620 N Sullivan Rd",
+      "lat": 47.68994,
+      "lng": -117.19641,
+      "price": 4.06
     },
     {
       "id": "126248",
@@ -283,6 +315,14 @@
       "price": 3.85
     },
     {
+      "id": "108254",
+      "name": "Liberty",
+      "address": "6902 W Seltice Way",
+      "lat": 47.703826949374,
+      "lng": -117.038147449493,
+      "price": 3.76
+    },
+    {
       "id": "26894",
       "name": "Exxon",
       "address": "4000 W Riverbend Ave",
@@ -323,14 +363,6 @@
       "price": 3.79
     },
     {
-      "id": "108256",
-      "name": "Handy Mart",
-      "address": "312 N Spokane St",
-      "lat": 47.710360740197,
-      "lng": -116.947821378708,
-      "price": 3.79
-    },
-    {
       "id": "11555",
       "name": "Exxon",
       "address": "701 N Spokane St",
@@ -345,14 +377,6 @@
       "lat": 47.745686772663,
       "lng": -117.019779682159,
       "price": 3.85
-    },
-    {
-      "id": "47945",
-      "name": "76",
-      "address": "211 E Seltice Way",
-      "lat": 47.7154933428,
-      "lng": -116.946179866791,
-      "price": 3.79
     }
   ]
 }
