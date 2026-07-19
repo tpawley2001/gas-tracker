@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18 06:00:25 PDT",
-  "timestamp": 1784379625,
+  "updated": "2026-07-19 06:00:11 PDT",
+  "timestamp": 1784466011,
   "stations": [
     {
       "id": "194686",
@@ -27,12 +27,36 @@
       "price": 4.23
     },
     {
+      "id": "209744",
+      "name": "JK Gas & Grocery",
+      "address": "4617 N Nevada St",
+      "lat": 47.700532063012,
+      "lng": -117.395672,
+      "price": 4.23
+    },
+    {
+      "id": "66249",
+      "name": "Mobil",
+      "address": "6616 N Nevada St",
+      "lat": 47.718120808679,
+      "lng": -117.394870519638,
+      "price": 4.28
+    },
+    {
       "id": "203661",
       "name": "Maverik",
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.28
+      "price": 4.46
+    },
+    {
+      "id": "79383",
+      "name": "Conoco",
+      "address": "5803 N Market St",
+      "lat": 47.711010464674,
+      "lng": -117.365001440048,
+      "price": 4.74
     },
     {
       "id": "195913",
@@ -49,14 +73,6 @@
       "lat": 47.688892,
       "lng": -117.378746,
       "price": 4.58
-    },
-    {
-      "id": "18325",
-      "name": "Cenex",
-      "address": "1023 W Wellesley Ave",
-      "lat": 47.700404504475,
-      "lng": -117.426810264587,
-      "price": 4.44
     },
     {
       "id": "10738",
@@ -81,14 +97,6 @@
       "lat": 47.715899,
       "lng": -117.357417,
       "price": 4.48
-    },
-    {
-      "id": "95818",
-      "name": "Chevron",
-      "address": "1421 N Pines Rd",
-      "lat": 47.67048,
-      "lng": -117.2401,
-      "price": 4.54
     },
     {
       "id": "66238",
@@ -216,7 +224,7 @@
       "address": "10620 E 16th Ave",
       "lat": 47.6423,
       "lng": -117.2618,
-      "price": 4.89
+      "price": 4.99
     },
     {
       "id": "63243",
@@ -235,6 +243,14 @@
       "price": 4.69
     },
     {
+      "id": "106607",
+      "name": "Cenex",
+      "address": "22304 E Appleway Ave",
+      "lat": 47.671191,
+      "lng": -117.105118,
+      "price": 4.44
+    },
+    {
       "id": "75994",
       "name": "Chevron",
       "address": "1109 N Liberty Lake Rd",
@@ -248,7 +264,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 4.57
+      "price": 4.53
     },
     {
       "id": "73457",
@@ -256,7 +272,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.55
+      "price": 4.53
     },
     {
       "id": "207352",
@@ -272,7 +288,7 @@
       "address": "18709 E Appleway Ave",
       "lat": 47.66079,
       "lng": -117.15322,
-      "price": 4.39
+      "price": 4.69
     },
     {
       "id": "19226",
@@ -281,6 +297,14 @@
       "lat": 47.660607,
       "lng": -117.153911,
       "price": 4.34
+    },
+    {
+      "id": "98600",
+      "name": "Chevron",
+      "address": "1010 N Sullivan Rd",
+      "lat": 47.666418,
+      "lng": -117.196134,
+      "price": 4.5
     },
     {
       "id": "195980",
@@ -304,7 +328,7 @@
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
-      "price": 4.29
+      "price": 4.14
     },
     {
       "id": "108791",
@@ -344,7 +368,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 3.85
+      "price": 3.79
     },
     {
       "id": "198986",
@@ -368,7 +392,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 3.85
+      "price": 3.79
     },
     {
       "id": "31594",
@@ -376,7 +400,7 @@
       "address": "4100 W Expo Pkwy",
       "lat": 47.712389297562,
       "lng": -117.002398967743,
-      "price": 3.91
+      "price": 3.95
     },
     {
       "id": "9102",
@@ -400,14 +424,6 @@
       "address": "606 W Mullan Ave",
       "lat": 47.7160964,
       "lng": -116.9562452,
-      "price": 3.79
-    },
-    {
-      "id": "108256",
-      "name": "Handy Mart",
-      "address": "312 N Spokane St",
-      "lat": 47.710360740197,
-      "lng": -116.947821378708,
       "price": 3.79
     },
     {
