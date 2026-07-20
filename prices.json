@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19 06:00:11 PDT",
-  "timestamp": 1784466011,
+  "updated": "2026-07-20 06:00:19 PDT",
+  "timestamp": 1784552419,
   "stations": [
     {
       "id": "194686",
@@ -16,7 +16,7 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 4.23
+      "price": 4.28
     },
     {
       "id": "19227",
@@ -24,7 +24,7 @@
       "address": "925 E Wellesley Ave",
       "lat": 47.70076553247,
       "lng": -117.39565372467,
-      "price": 4.23
+      "price": 4.39
     },
     {
       "id": "209744",
@@ -32,7 +32,7 @@
       "address": "4617 N Nevada St",
       "lat": 47.700532063012,
       "lng": -117.395672,
-      "price": 4.23
+      "price": 4.28
     },
     {
       "id": "66249",
@@ -59,12 +59,12 @@
       "price": 4.74
     },
     {
-      "id": "195913",
-      "name": "Quick Stop",
-      "address": " 3021 E Wellesley Ave",
-      "lat": 47.70087925577,
-      "lng": -117.365299165249,
-      "price": 4.59
+      "id": "88056",
+      "name": "Conoco",
+      "address": "3219 N Nevada St",
+      "lat": 47.68830501074,
+      "lng": -117.395380139351,
+      "price": 4.39
     },
     {
       "id": "63237",
@@ -91,20 +91,12 @@
       "price": 4.37
     },
     {
-      "id": "210180",
-      "name": "Maverik",
-      "address": "6410 N Freya St",
-      "lat": 47.715899,
-      "lng": -117.357417,
-      "price": 4.48
-    },
-    {
-      "id": "66238",
-      "name": "76",
-      "address": "1520 N Pines Rd",
-      "lat": 47.67146,
-      "lng": -117.23931,
-      "price": 4.44
+      "id": "95818",
+      "name": "Chevron",
+      "address": "1421 N Pines Rd",
+      "lat": 47.67048,
+      "lng": -117.2401,
+      "price": 4.64
     },
     {
       "id": "204322",
@@ -115,28 +107,12 @@
       "price": 4.44
     },
     {
-      "id": "166821",
-      "name": "76",
-      "address": "12309 E Mansfield Ave",
-      "lat": 47.677414,
-      "lng": -117.23951,
-      "price": 4.44
-    },
-    {
       "id": "96164",
       "name": "Circle K",
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
       "price": 4.5
-    },
-    {
-      "id": "109599",
-      "name": "Broadway Mini Market",
-      "address": "10304 E Broadway Ave",
-      "lat": 47.664254,
-      "lng": -117.266445,
-      "price": 4.79
     },
     {
       "id": "11509",
@@ -163,28 +139,12 @@
       "price": 4.49
     },
     {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 4.39
-    },
-    {
-      "id": "91129",
-      "name": "76",
-      "address": "1520 N Argonne Rd",
-      "lat": 47.67071,
-      "lng": -117.282615,
-      "price": 4.59
-    },
-    {
       "id": "156921",
       "name": "Maverik",
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.44
+      "price": 4.39
     },
     {
       "id": "79191",
@@ -200,7 +160,7 @@
       "address": "9219 E Sprague Ave",
       "lat": 47.657293,
       "lng": -117.280741,
-      "price": 4.69
+      "price": 4.89
     },
     {
       "id": "195888",
@@ -233,6 +193,14 @@
       "lat": 47.656763,
       "lng": -117.206933,
       "price": 4.36
+    },
+    {
+      "id": "63242",
+      "name": "Mobil",
+      "address": "13819 E Trent Ave",
+      "lat": 47.694714,
+      "lng": -117.219185,
+      "price": 4.24
     },
     {
       "id": "63229",
@@ -291,14 +259,6 @@
       "price": 4.69
     },
     {
-      "id": "19226",
-      "name": "Mobil",
-      "address": "18616 E Appleway Ave",
-      "lat": 47.660607,
-      "lng": -117.153911,
-      "price": 4.34
-    },
-    {
       "id": "98600",
       "name": "Chevron",
       "address": "1010 N Sullivan Rd",
@@ -315,12 +275,12 @@
       "price": 4.29
     },
     {
-      "id": "35657",
-      "name": "Fred Meyer",
-      "address": "15609 E Sprague Ave",
-      "lat": 47.657565,
-      "lng": -117.194063,
-      "price": 4.49
+      "id": "66251",
+      "name": "76",
+      "address": "1007 N Sullivan Rd",
+      "lat": 47.666438,
+      "lng": -117.197024,
+      "price": 4.59
     },
     {
       "id": "73455",
@@ -329,14 +289,6 @@
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.14
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 4.45
     },
     {
       "id": "126248",
@@ -379,14 +331,6 @@
       "price": 3.79
     },
     {
-      "id": "26894",
-      "name": "Exxon",
-      "address": "4000 W Riverbend Ave",
-      "lat": 47.707704004728,
-      "lng": -117.002356052399,
-      "price": 4.01
-    },
-    {
       "id": "140817",
       "name": "Love's Travel Stop",
       "address": "4208 W Expo Pkwy",
@@ -416,7 +360,7 @@
       "address": "768 N Pleasant View Rd",
       "lat": 47.71600557013,
       "lng": -117.000863735582,
-      "price": 3.85
+      "price": 3.79
     },
     {
       "id": "124106",
@@ -441,14 +385,6 @@
       "lat": 47.745686772663,
       "lng": -117.019779682159,
       "price": 3.95
-    },
-    {
-      "id": "47945",
-      "name": "76",
-      "address": "211 E Seltice Way",
-      "lat": 47.7154933428,
-      "lng": -116.946179866791,
-      "price": 3.79
     }
   ]
 }
