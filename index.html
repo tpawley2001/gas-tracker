@@ -175,7 +175,7 @@ function render(){
   cluster=L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:40,disableClusteringAtZoom:16});
   map.addLayer(cluster);
 
-  hm=L.marker(homePos,{icon:homeIcon}).addTo(map).bindPopup('<b>🏠 Home</b><br>Home area');
+  hm=L.marker(homePos,{icon:homeIcon}).addTo(map).bindPopup('<b>🏠 Home area</b>');
   dm=L.marker([47.686,-117.020],{icon:destIcon}).addTo(map).bindPopup('<b>📍 Stateline, ID</b>');
 
   // Route home→Stateline
@@ -308,7 +308,7 @@ async function fetchLivePrices(){
 
 document.addEventListener('DOMContentLoaded',async()=>{
   await loadStaticPrices();
-  gG('Spokane, WA').then(p=>{if(p)homePos=p;render()}).catch(()=>render());
+  render();
   document.getElementById('mpgInput').addEventListener('change',render);
   document.getElementById('tankInput').addEventListener('change',render);
 });
