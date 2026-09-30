@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29 06:00:41 PDT",
-  "timestamp": 1790686841,
+  "updated": "2026-09-30 06:00:14 PDT",
+  "timestamp": 1790773214,
   "stations": [
     {
       "id": "194686",
@@ -35,6 +35,14 @@
       "price": 5.08
     },
     {
+      "id": "134179",
+      "name": "76",
+      "address": "618 W Francis Ave",
+      "lat": 47.715366363525,
+      "lng": -117.421600341797,
+      "price": 5.08
+    },
+    {
       "id": "33576",
       "name": "Safeway",
       "address": "902 W Francis Ave",
@@ -56,7 +64,7 @@
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
-      "price": 5.07
+      "price": 4.96
     },
     {
       "id": "18325",
@@ -128,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.29
+      "price": 5.31
     },
     {
       "id": "11509",
@@ -227,6 +235,14 @@
       "price": 5.29
     },
     {
+      "id": "63243",
+      "name": "Mobil",
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
+      "price": 5.23
+    },
+    {
       "id": "106607",
       "name": "Cenex",
       "address": "22304 E Appleway Ave",
@@ -267,12 +283,12 @@
       "price": 5.29
     },
     {
-      "id": "98600",
-      "name": "Chevron",
-      "address": "1010 N Sullivan Rd",
-      "lat": 47.666418,
-      "lng": -117.196134,
-      "price": 5.49
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 5.24
     },
     {
       "id": "195980",
@@ -283,12 +299,12 @@
       "price": 5.33
     },
     {
-      "id": "66251",
-      "name": "76",
-      "address": "1007 N Sullivan Rd",
-      "lat": 47.666438,
-      "lng": -117.197024,
-      "price": 5.49
+      "id": "35657",
+      "name": "Fred Meyer",
+      "address": "15609 E Sprague Ave",
+      "lat": 47.657565,
+      "lng": -117.194063,
+      "price": 5.29
     },
     {
       "id": "73455",
@@ -297,14 +313,6 @@
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.99
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 5.33
     },
     {
       "id": "126248",
@@ -400,7 +408,7 @@
       "address": "606 W Mullan Ave",
       "lat": 47.7160964,
       "lng": -116.9562452,
-      "price": 4.59
+      "price": 4.49
     },
     {
       "id": "11555",
