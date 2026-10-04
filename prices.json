@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03 06:00:39 PDT",
-  "timestamp": 1791032439,
+  "updated": "2026-10-04 06:01:25 PDT",
+  "timestamp": 1791118885,
   "stations": [
     {
       "id": "194686",
@@ -17,6 +17,22 @@
       "lat": 47.70085,
       "lng": -117.39463,
       "price": 5.09
+    },
+    {
+      "id": "209744",
+      "name": "JK Gas & Grocery",
+      "address": "4617 N Nevada St",
+      "lat": 47.700532063012,
+      "lng": -117.395672,
+      "price": 4.99
+    },
+    {
+      "id": "69111",
+      "name": "JK Gas & Groceries",
+      "address": "4617 N Nevada St",
+      "lat": 47.700523,
+      "lng": -117.396,
+      "price": 4.99
     },
     {
       "id": "66249",
@@ -43,14 +59,6 @@
       "price": 4.99
     },
     {
-      "id": "134179",
-      "name": "76",
-      "address": "618 W Francis Ave",
-      "lat": 47.715366363525,
-      "lng": -117.421600341797,
-      "price": 4.99
-    },
-    {
       "id": "195913",
       "name": "Quick Stop",
       "address": " 3021 E Wellesley Ave",
@@ -67,12 +75,12 @@
       "price": 4.99
     },
     {
-      "id": "18325",
-      "name": "Cenex",
-      "address": "1023 W Wellesley Ave",
-      "lat": 47.700404504475,
-      "lng": -117.426810264587,
-      "price": 4.94
+      "id": "10738",
+      "name": "NomNom",
+      "address": "7902 N Division St",
+      "lat": 47.729672146348,
+      "lng": -117.410953044891,
+      "price": 4.99
     },
     {
       "id": "212851",
@@ -80,14 +88,6 @@
       "address": "2667 N Hamilton St",
       "lat": 47.683052715658,
       "lng": -117.397181731507,
-      "price": 4.99
-    },
-    {
-      "id": "210180",
-      "name": "Maverik",
-      "address": "6410 N Freya St",
-      "lat": 47.715899,
-      "lng": -117.357417,
       "price": 4.99
     },
     {
@@ -235,116 +235,12 @@
       "price": 5.26
     },
     {
-      "id": "106607",
-      "name": "Cenex",
-      "address": "22304 E Appleway Ave",
-      "lat": 47.671191,
-      "lng": -117.105118,
-      "price": 5.39
-    },
-    {
-      "id": "75994",
-      "name": "Chevron",
-      "address": "1109 N Liberty Lake Rd",
-      "lat": 47.667609,
-      "lng": -117.105345,
-      "price": 5.49
-    },
-    {
-      "id": "214429",
-      "name": "Circle K",
-      "address": "18723 E Cataldo Ave",
-      "lat": 47.667664439719,
-      "lng": -117.152914837435,
-      "price": 5.43
-    },
-    {
-      "id": "73457",
-      "name": "Conoco",
-      "address": "1201 N Barker Rd",
-      "lat": 47.66831,
-      "lng": -117.1541,
-      "price": 5.43
-    },
-    {
-      "id": "19226",
+      "id": "63243",
       "name": "Mobil",
-      "address": "18616 E Appleway Ave",
-      "lat": 47.660607,
-      "lng": -117.153911,
-      "price": 5.24
-    },
-    {
-      "id": "98600",
-      "name": "Chevron",
-      "address": "1010 N Sullivan Rd",
-      "lat": 47.666418,
-      "lng": -117.196134,
-      "price": 5.29
-    },
-    {
-      "id": "195980",
-      "name": "Maverik",
-      "address": "2707 North Sullivan Road",
-      "lat": 47.682049,
-      "lng": -117.196787,
-      "price": 5.25
-    },
-    {
-      "id": "66251",
-      "name": "76",
-      "address": "1007 N Sullivan Rd",
-      "lat": 47.666438,
-      "lng": -117.197024,
-      "price": 5.29
-    },
-    {
-      "id": "35657",
-      "name": "Fred Meyer",
-      "address": "15609 E Sprague Ave",
-      "lat": 47.657565,
-      "lng": -117.194063,
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
       "price": 5.13
-    },
-    {
-      "id": "73455",
-      "name": "Amerimart",
-      "address": "3620 N Sullivan Rd",
-      "lat": 47.68994,
-      "lng": -117.19641,
-      "price": 4.89
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 5.33
-    },
-    {
-      "id": "126248",
-      "name": "A-1 Smoke Shop",
-      "address": "7200 W Seltice Way",
-      "lat": 47.701884703366,
-      "lng": -117.040207386016,
-      "price": 4.4
-    },
-    {
-      "id": "66156",
-      "name": "Exxon",
-      "address": "25105 E Trent Ave",
-      "lat": 47.724703328157,
-      "lng": -117.068322300911,
-      "price": 5.49
-    },
-    {
-      "id": "196309",
-      "name": "Amerimart",
-      "address": "7035 W Seltice Way",
-      "lat": 47.70355571325,
-      "lng": -117.040246735582,
-      "price": 4.4
     },
     {
       "id": "210449",
@@ -363,12 +259,28 @@
       "price": 4.49
     },
     {
+      "id": "126248",
+      "name": "A-1 Smoke Shop",
+      "address": "7200 W Seltice Way",
+      "lat": 47.701884703366,
+      "lng": -117.040207386016,
+      "price": 4.34
+    },
+    {
       "id": "108254",
       "name": "Liberty",
       "address": "6902 W Seltice Way",
       "lat": 47.703826949374,
       "lng": -117.038147449493,
       "price": 4.4
+    },
+    {
+      "id": "196309",
+      "name": "Amerimart",
+      "address": "7035 W Seltice Way",
+      "lat": 47.70355571325,
+      "lng": -117.040246735582,
+      "price": 4.34
     },
     {
       "id": "26894",
@@ -392,7 +304,7 @@
       "address": "3636 W 5th Ave",
       "lat": 47.711364200151,
       "lng": -116.996970176697,
-      "price": 4.49
+      "price": 4.45
     },
     {
       "id": "214490",
@@ -401,6 +313,14 @@
       "lat": 47.71600557013,
       "lng": -117.000863735582,
       "price": 4.49
+    },
+    {
+      "id": "66156",
+      "name": "Exxon",
+      "address": "25105 E Trent Ave",
+      "lat": 47.724703328157,
+      "lng": -117.068322300911,
+      "price": 5.49
     },
     {
       "id": "124106",
@@ -424,7 +344,7 @@
       "address": "701 N Spokane St",
       "lat": 47.714158,
       "lng": -116.94818,
-      "price": 4.57
+      "price": 4.49
     },
     {
       "id": "110392",
@@ -432,15 +352,23 @@
       "address": "26913 W ID-53",
       "lat": 47.745686772663,
       "lng": -117.019779682159,
-      "price": 4.49
+      "price": 4.53
     },
     {
-      "id": "47945",
-      "name": "76",
-      "address": "211 E Seltice Way",
-      "lat": 47.7154933428,
-      "lng": -116.946179866791,
-      "price": 4.49
+      "id": "106607",
+      "name": "Cenex",
+      "address": "22304 E Appleway Ave",
+      "lat": 47.671191,
+      "lng": -117.105118,
+      "price": 5.39
+    },
+    {
+      "id": "75994",
+      "name": "Chevron",
+      "address": "1109 N Liberty Lake Rd",
+      "lat": 47.667609,
+      "lng": -117.105345,
+      "price": 5.49
     }
   ]
 }
