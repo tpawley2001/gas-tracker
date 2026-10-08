@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07 06:00:55 PDT",
-  "timestamp": 1791378055,
+  "updated": "2026-10-08 06:01:03 PDT",
+  "timestamp": 1791464463,
   "stations": [
     {
       "id": "98956",
@@ -16,7 +16,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.99
+      "price": 4.94
     },
     {
       "id": "38222",
@@ -24,7 +24,15 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
-      "price": 4.99
+      "price": 5.09
+    },
+    {
+      "id": "145365",
+      "name": "76",
+      "address": "1703 E Francis Ave",
+      "lat": 47.71525,
+      "lng": -117.38436,
+      "price": 5.09
     },
     {
       "id": "203661",
@@ -32,14 +40,6 @@
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.99
-    },
-    {
-      "id": "134179",
-      "name": "76",
-      "address": "618 W Francis Ave",
-      "lat": 47.715366363525,
-      "lng": -117.421600341797,
       "price": 4.99
     },
     {
@@ -112,7 +112,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 5.25
+      "price": 5.19
     },
     {
       "id": "204322",
@@ -120,7 +120,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 5.25
+      "price": 5.23
     },
     {
       "id": "166821",
@@ -136,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.3
+      "price": 5.28
     },
     {
       "id": "109599",
@@ -216,7 +216,7 @@
       "address": "9009 E Montgomery Avenue",
       "lat": 47.678738,
       "lng": -117.284017,
-      "price": 5.25
+      "price": 4.98
     },
     {
       "id": "77523",
@@ -251,6 +251,14 @@
       "price": 5.13
     },
     {
+      "id": "63229",
+      "name": "76",
+      "address": "21804 E Mission Ave",
+      "lat": 47.674133,
+      "lng": -117.11172,
+      "price": 5.49
+    },
+    {
       "id": "106607",
       "name": "Cenex",
       "address": "22304 E Appleway Ave",
@@ -264,7 +272,7 @@
       "address": "1109 N Liberty Lake Rd",
       "lat": 47.667609,
       "lng": -117.105345,
-      "price": 5.49
+      "price": 5.39
     },
     {
       "id": "214429",
@@ -272,7 +280,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 5.29
+      "price": 5.27
     },
     {
       "id": "73457",
@@ -296,7 +304,7 @@
       "address": "2707 North Sullivan Road",
       "lat": 47.682049,
       "lng": -117.196787,
-      "price": 5.25
+      "price": 5.23
     },
     {
       "id": "35657",
@@ -323,6 +331,14 @@
       "price": 5.25
     },
     {
+      "id": "126248",
+      "name": "A-1 Smoke Shop",
+      "address": "7200 W Seltice Way",
+      "lat": 47.701884703366,
+      "lng": -117.040207386016,
+      "price": 4.39
+    },
+    {
       "id": "66156",
       "name": "Exxon",
       "address": "25105 E Trent Ave",
@@ -336,7 +352,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.39
+      "price": 4.35
     },
     {
       "id": "210449",
@@ -355,6 +371,14 @@
       "price": 4.45
     },
     {
+      "id": "108254",
+      "name": "Liberty",
+      "address": "6902 W Seltice Way",
+      "lat": 47.703826949374,
+      "lng": -117.038147449493,
+      "price": 4.39
+    },
+    {
       "id": "26894",
       "name": "Exxon",
       "address": "4000 W Riverbend Ave",
@@ -368,7 +392,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 4.49
+      "price": 4.45
     },
     {
       "id": "9102",
@@ -387,12 +411,12 @@
       "price": 4.45
     },
     {
-      "id": "108256",
-      "name": "Handy Mart",
-      "address": "312 N Spokane St",
-      "lat": 47.710360740197,
-      "lng": -116.947821378708,
-      "price": 4.49
+      "id": "124106",
+      "name": "Cenex",
+      "address": "606 W Mullan Ave",
+      "lat": 47.7160964,
+      "lng": -116.9562452,
+      "price": 4.39
     },
     {
       "id": "11555",
@@ -409,14 +433,6 @@
       "lat": 47.745686772663,
       "lng": -117.019779682159,
       "price": 4.53
-    },
-    {
-      "id": "47945",
-      "name": "76",
-      "address": "211 E Seltice Way",
-      "lat": 47.7154933428,
-      "lng": -116.946179866791,
-      "price": 4.49
     }
   ]
 }
