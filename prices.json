@@ -1,15 +1,7 @@
 {
-  "updated": "2026-10-08 06:01:03 PDT",
-  "timestamp": 1791464463,
+  "updated": "2026-10-09 06:00:57 PDT",
+  "timestamp": 1791550857,
   "stations": [
-    {
-      "id": "98956",
-      "name": "Exxon",
-      "address": "924 E Francis Ave",
-      "lat": 47.71493,
-      "lng": -117.39593,
-      "price": 4.99
-    },
     {
       "id": "194686",
       "name": "Maverik",
@@ -25,6 +17,30 @@
       "lat": 47.70085,
       "lng": -117.39463,
       "price": 5.09
+    },
+    {
+      "id": "209744",
+      "name": "JK Gas & Grocery",
+      "address": "4617 N Nevada St",
+      "lat": 47.700532063012,
+      "lng": -117.395672,
+      "price": 4.99
+    },
+    {
+      "id": "69111",
+      "name": "JK Gas & Groceries",
+      "address": "4617 N Nevada St",
+      "lat": 47.700523,
+      "lng": -117.396,
+      "price": 4.99
+    },
+    {
+      "id": "66249",
+      "name": "Mobil",
+      "address": "6616 N Nevada St",
+      "lat": 47.718120808679,
+      "lng": -117.394870519638,
+      "price": 4.99
     },
     {
       "id": "145365",
@@ -43,11 +59,11 @@
       "price": 4.99
     },
     {
-      "id": "33576",
-      "name": "Safeway",
-      "address": "902 W Francis Ave",
-      "lat": 47.715388674519,
-      "lng": -117.424959540367,
+      "id": "134179",
+      "name": "76",
+      "address": "618 W Francis Ave",
+      "lat": 47.715366363525,
+      "lng": -117.421600341797,
       "price": 4.99
     },
     {
@@ -88,7 +104,7 @@
       "address": "2667 N Hamilton St",
       "lat": 47.683052715658,
       "lng": -117.397181731507,
-      "price": 4.99
+      "price": 4.94
     },
     {
       "id": "210180",
@@ -104,7 +120,7 @@
       "address": "1421 N Pines Rd",
       "lat": 47.67048,
       "lng": -117.2401,
-      "price": 5.39
+      "price": 5.29
     },
     {
       "id": "66238",
@@ -120,7 +136,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 5.23
+      "price": 5.19
     },
     {
       "id": "166821",
@@ -136,7 +152,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.28
+      "price": 5.26
     },
     {
       "id": "109599",
@@ -160,7 +176,7 @@
       "address": "115 S Pines Rd   ",
       "lat": 47.655608480889,
       "lng": -117.239609509707,
-      "price": 5.39
+      "price": 5.29
     },
     {
       "id": "66244",
@@ -179,28 +195,12 @@
       "price": 5.13
     },
     {
-      "id": "91129",
-      "name": "76",
-      "address": "1520 N Argonne Rd",
-      "lat": 47.67071,
-      "lng": -117.282615,
-      "price": 5.25
-    },
-    {
       "id": "156921",
       "name": "Maverik",
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
       "price": 5.13
-    },
-    {
-      "id": "79191",
-      "name": "Circle K",
-      "address": "2303 N Argonne Rd",
-      "lat": 47.677604134263,
-      "lng": -117.283086776733,
-      "price": 5.25
     },
     {
       "id": "19224",
@@ -232,7 +232,7 @@
       "address": "10620 E 16th Ave",
       "lat": 47.6423,
       "lng": -117.2618,
-      "price": 5.59
+      "price": 5.49
     },
     {
       "id": "12551",
@@ -288,7 +288,15 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 5.27
+      "price": 5.25
+    },
+    {
+      "id": "207352",
+      "name": "Conoco",
+      "address": "21121 E Wellesley Ave",
+      "lat": 47.7007584,
+      "lng": -117.1214936,
+      "price": 5.39
     },
     {
       "id": "98601",
@@ -297,6 +305,14 @@
       "lat": 47.66079,
       "lng": -117.15322,
       "price": 5.29
+    },
+    {
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 5.24
     },
     {
       "id": "195980",
@@ -400,7 +416,7 @@
       "address": "3636 W 5th Ave",
       "lat": 47.711364200151,
       "lng": -116.996970176697,
-      "price": 4.45
+      "price": 4.55
     },
     {
       "id": "214490",
