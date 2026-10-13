@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12 06:00:23 PDT",
-  "timestamp": 1791810023,
+  "updated": "2026-10-13 06:00:49 PDT",
+  "timestamp": 1791896449,
   "stations": [
     {
       "id": "98956",
@@ -16,7 +16,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.92
+      "price": 4.89
     },
     {
       "id": "38222",
@@ -48,7 +48,15 @@
       "address": "618 W Francis Ave",
       "lat": 47.715366363525,
       "lng": -117.421600341797,
-      "price": 4.99
+      "price": 4.94
+    },
+    {
+      "id": "88056",
+      "name": "Conoco",
+      "address": "3219 N Nevada St",
+      "lat": 47.68830501074,
+      "lng": -117.395380139351,
+      "price": 4.89
     },
     {
       "id": "33576",
@@ -67,12 +75,20 @@
       "price": 4.99
     },
     {
+      "id": "10738",
+      "name": "NomNom",
+      "address": "7902 N Division St",
+      "lat": 47.729672146348,
+      "lng": -117.410953044891,
+      "price": 4.99
+    },
+    {
       "id": "212851",
       "name": "Circle K",
       "address": "2667 N Hamilton St",
       "lat": 47.683052715658,
       "lng": -117.397181731507,
-      "price": 4.92
+      "price": 4.89
     },
     {
       "id": "210180",
@@ -80,7 +96,7 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.99
+      "price": 4.92
     },
     {
       "id": "95818",
@@ -96,7 +112,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 5.19
+      "price": 4.99
     },
     {
       "id": "204322",
@@ -120,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.22
+      "price": 5.18
     },
     {
       "id": "109599",
@@ -155,20 +171,20 @@
       "price": 5.29
     },
     {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 5.23
-    },
-    {
       "id": "91129",
       "name": "76",
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
       "price": 4.98
+    },
+    {
+      "id": "66252",
+      "name": "Exxon",
+      "address": "13823 E Broadway Ave",
+      "lat": 47.664520297117,
+      "lng": -117.218394577503,
+      "price": 5.23
     },
     {
       "id": "156921",
@@ -227,6 +243,14 @@
       "price": 5.03
     },
     {
+      "id": "63243",
+      "name": "Mobil",
+      "address": "14704 E Sprague  Ave",
+      "lat": 47.656763,
+      "lng": -117.206933,
+      "price": 5.13
+    },
+    {
       "id": "106607",
       "name": "Cenex",
       "address": "22304 E Appleway Ave",
@@ -259,6 +283,14 @@
       "price": 5.29
     },
     {
+      "id": "98600",
+      "name": "Chevron",
+      "address": "1010 N Sullivan Rd",
+      "lat": 47.666418,
+      "lng": -117.196134,
+      "price": 5.29
+    },
+    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
@@ -272,7 +304,7 @@
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
-      "price": 4.89
+      "price": 4.79
     },
     {
       "id": "108791",
@@ -331,20 +363,20 @@
       "price": 4.39
     },
     {
+      "id": "26894",
+      "name": "Exxon",
+      "address": "4000 W Riverbend Ave",
+      "lat": 47.707704004728,
+      "lng": -117.002356052399,
+      "price": 4.55
+    },
+    {
       "id": "140817",
       "name": "Love's Travel Stop",
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
       "price": 4.45
-    },
-    {
-      "id": "31594",
-      "name": "Exxon",
-      "address": "4100 W Expo Pkwy",
-      "lat": 47.712389297562,
-      "lng": -117.002398967743,
-      "price": 4.55
     },
     {
       "id": "9102",
@@ -361,14 +393,6 @@
       "lat": 47.71600557013,
       "lng": -117.000863735582,
       "price": 4.45
-    },
-    {
-      "id": "124106",
-      "name": "Cenex",
-      "address": "606 W Mullan Ave",
-      "lat": 47.7160964,
-      "lng": -116.9562452,
-      "price": 4.39
     },
     {
       "id": "11555",
