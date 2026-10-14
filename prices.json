@@ -1,15 +1,7 @@
 {
-  "updated": "2026-10-13 06:00:49 PDT",
-  "timestamp": 1791896449,
+  "updated": "2026-10-14 06:00:53 PDT",
+  "timestamp": 1791982853,
   "stations": [
-    {
-      "id": "98956",
-      "name": "Exxon",
-      "address": "924 E Francis Ave",
-      "lat": 47.71493,
-      "lng": -117.39593,
-      "price": 4.99
-    },
     {
       "id": "194686",
       "name": "Maverik",
@@ -27,20 +19,12 @@
       "price": 4.99
     },
     {
-      "id": "145365",
-      "name": "76",
-      "address": "1703 E Francis Ave",
-      "lat": 47.71525,
-      "lng": -117.38436,
-      "price": 5.09
-    },
-    {
       "id": "203661",
       "name": "Maverik",
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.92
+      "price": 4.85
     },
     {
       "id": "134179",
@@ -67,11 +51,27 @@
       "price": 4.94
     },
     {
+      "id": "195913",
+      "name": "Quick Stop",
+      "address": " 3021 E Wellesley Ave",
+      "lat": 47.70087925577,
+      "lng": -117.365299165249,
+      "price": 5.05
+    },
+    {
       "id": "63237",
       "name": "76",
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
+      "price": 4.99
+    },
+    {
+      "id": "18325",
+      "name": "Cenex",
+      "address": "1023 W Wellesley Ave",
+      "lat": 47.700404504475,
+      "lng": -117.426810264587,
       "price": 4.99
     },
     {
@@ -136,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.18
+      "price": 5.19
     },
     {
       "id": "109599",
@@ -171,20 +171,20 @@
       "price": 5.29
     },
     {
-      "id": "91129",
-      "name": "76",
-      "address": "1520 N Argonne Rd",
-      "lat": 47.67071,
-      "lng": -117.282615,
-      "price": 4.98
-    },
-    {
       "id": "66252",
       "name": "Exxon",
       "address": "13823 E Broadway Ave",
       "lat": 47.664520297117,
       "lng": -117.218394577503,
       "price": 5.23
+    },
+    {
+      "id": "91129",
+      "name": "76",
+      "address": "1520 N Argonne Rd",
+      "lat": 47.67071,
+      "lng": -117.282615,
+      "price": 4.98
     },
     {
       "id": "156921",
@@ -264,7 +264,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 5.25
+      "price": 5.21
     },
     {
       "id": "73457",
@@ -272,15 +272,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 5.25
-    },
-    {
-      "id": "98601",
-      "name": "Exxon",
-      "address": "18709 E Appleway Ave",
-      "lat": 47.66079,
-      "lng": -117.15322,
-      "price": 5.29
+      "price": 5.21
     },
     {
       "id": "98600",
@@ -305,22 +297,6 @@
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.79
-    },
-    {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 5.22
-    },
-    {
-      "id": "126248",
-      "name": "A-1 Smoke Shop",
-      "address": "7200 W Seltice Way",
-      "lat": 47.701884703366,
-      "lng": -117.040207386016,
-      "price": 4.27
     },
     {
       "id": "66156",
@@ -355,14 +331,6 @@
       "price": 4.45
     },
     {
-      "id": "108254",
-      "name": "Liberty",
-      "address": "6902 W Seltice Way",
-      "lat": 47.703826949374,
-      "lng": -117.038147449493,
-      "price": 4.39
-    },
-    {
       "id": "26894",
       "name": "Exxon",
       "address": "4000 W Riverbend Ave",
@@ -379,6 +347,14 @@
       "price": 4.45
     },
     {
+      "id": "31594",
+      "name": "Exxon",
+      "address": "4100 W Expo Pkwy",
+      "lat": 47.712389297562,
+      "lng": -117.002398967743,
+      "price": 4.55
+    },
+    {
       "id": "9102",
       "name": "Flying J",
       "address": "3636 W 5th Ave",
@@ -393,14 +369,6 @@
       "lat": 47.71600557013,
       "lng": -117.000863735582,
       "price": 4.45
-    },
-    {
-      "id": "11555",
-      "name": "Exxon",
-      "address": "701 N Spokane St",
-      "lat": 47.714158,
-      "lng": -116.94818,
-      "price": 4.39
     },
     {
       "id": "110392",
