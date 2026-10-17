@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16 06:00:42 PDT",
-  "timestamp": 1792155642,
+  "updated": "2026-10-17 06:00:34 PDT",
+  "timestamp": 1792242034,
   "stations": [
     {
       "id": "194686",
@@ -17,22 +17,6 @@
       "lat": 47.70085,
       "lng": -117.39463,
       "price": 4.99
-    },
-    {
-      "id": "69111",
-      "name": "JK Gas & Groceries",
-      "address": "4617 N Nevada St",
-      "lat": 47.700523,
-      "lng": -117.396,
-      "price": 4.89
-    },
-    {
-      "id": "66249",
-      "name": "Mobil",
-      "address": "6616 N Nevada St",
-      "lat": 47.718120808679,
-      "lng": -117.394870519638,
-      "price": 4.92
     },
     {
       "id": "69122",
@@ -65,14 +49,6 @@
       "lat": 47.68830501074,
       "lng": -117.395380139351,
       "price": 4.89
-    },
-    {
-      "id": "33576",
-      "name": "Safeway",
-      "address": "902 W Francis Ave",
-      "lat": 47.715388674519,
-      "lng": -117.424959540367,
-      "price": 4.85
     },
     {
       "id": "195913",
@@ -128,7 +104,7 @@
       "address": "1421 N Pines Rd",
       "lat": 47.67048,
       "lng": -117.2401,
-      "price": 5.19
+      "price": 5.29
     },
     {
       "id": "66238",
@@ -136,7 +112,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 5.19
+      "price": 5.09
     },
     {
       "id": "204322",
@@ -160,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 5.19
+      "price": 5.18
     },
     {
       "id": "109599",
@@ -176,7 +152,7 @@
       "address": "10708 E Sprague Ave",
       "lat": 47.656749,
       "lng": -117.260861,
-      "price": 4.99
+      "price": 5.19
     },
     {
       "id": "188811",
@@ -195,20 +171,20 @@
       "price": 5.29
     },
     {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 5.13
-    },
-    {
       "id": "91129",
       "name": "76",
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
       "price": 5.19
+    },
+    {
+      "id": "66252",
+      "name": "Exxon",
+      "address": "13823 E Broadway Ave",
+      "lat": 47.664520297117,
+      "lng": -117.218394577503,
+      "price": 5.13
     },
     {
       "id": "156921",
@@ -275,14 +251,6 @@
       "price": 5.13
     },
     {
-      "id": "106607",
-      "name": "Cenex",
-      "address": "22304 E Appleway Ave",
-      "lat": 47.671191,
-      "lng": -117.105118,
-      "price": 5.29
-    },
-    {
       "id": "75994",
       "name": "Chevron",
       "address": "1109 N Liberty Lake Rd",
@@ -323,6 +291,14 @@
       "price": 5.24
     },
     {
+      "id": "98600",
+      "name": "Chevron",
+      "address": "1010 N Sullivan Rd",
+      "lat": 47.666418,
+      "lng": -117.196134,
+      "price": 5.29
+    },
+    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
@@ -339,6 +315,14 @@
       "price": 5.29
     },
     {
+      "id": "35657",
+      "name": "Fred Meyer",
+      "address": "15609 E Sprague Ave",
+      "lat": 47.657565,
+      "lng": -117.194063,
+      "price": 5.19
+    },
+    {
       "id": "73455",
       "name": "Amerimart",
       "address": "3620 N Sullivan Rd",
@@ -347,12 +331,12 @@
       "price": 4.89
     },
     {
-      "id": "108791",
-      "name": "Nom No",
-      "address": "15504 E 4th Ave",
-      "lat": 47.653007,
-      "lng": -117.19633,
-      "price": 5.07
+      "id": "126248",
+      "name": "A-1 Smoke Shop",
+      "address": "7200 W Seltice Way",
+      "lat": 47.701884703366,
+      "lng": -117.040207386016,
+      "price": 4.29
     },
     {
       "id": "66156",
@@ -360,7 +344,7 @@
       "address": "25105 E Trent Ave",
       "lat": 47.724703328157,
       "lng": -117.068322300911,
-      "price": 5.49
+      "price": 5.29
     },
     {
       "id": "196309",
@@ -368,7 +352,7 @@
       "address": "7035 W Seltice Way",
       "lat": 47.70355571325,
       "lng": -117.040246735582,
-      "price": 4.35
+      "price": 4.29
     },
     {
       "id": "210449",
@@ -376,7 +360,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 4.45
+      "price": 4.39
     },
     {
       "id": "198986",
@@ -385,14 +369,6 @@
       "lat": 47.702447,
       "lng": -117.028733,
       "price": 4.59
-    },
-    {
-      "id": "26894",
-      "name": "Exxon",
-      "address": "4000 W Riverbend Ave",
-      "lat": 47.707704004728,
-      "lng": -117.002356052399,
-      "price": 4.55
     },
     {
       "id": "140817",
