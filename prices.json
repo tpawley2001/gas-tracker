@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18 06:00:50 PDT",
-  "timestamp": 1792328450,
+  "updated": "2026-10-19 06:00:50 PDT",
+  "timestamp": 1792414850,
   "stations": [
     {
       "id": "194686",
@@ -27,14 +27,6 @@
       "price": 4.85
     },
     {
-      "id": "195913",
-      "name": "Quick Stop",
-      "address": " 3021 E Wellesley Ave",
-      "lat": 47.70087925577,
-      "lng": -117.365299165249,
-      "price": 4.99
-    },
-    {
       "id": "63237",
       "name": "76",
       "address": "3430 N Crestline St",
@@ -49,14 +41,6 @@
       "lat": 47.700404504475,
       "lng": -117.426810264587,
       "price": 4.99
-    },
-    {
-      "id": "10738",
-      "name": "NomNom",
-      "address": "7902 N Division St",
-      "lat": 47.729672146348,
-      "lng": -117.410953044891,
-      "price": 5.19
     },
     {
       "id": "212851",
@@ -136,7 +120,7 @@
       "address": "520 S Pines Rd",
       "lat": 47.651783705725,
       "lng": -117.240251898766,
-      "price": 5.29
+      "price": 4.99
     },
     {
       "id": "66252",
@@ -235,12 +219,12 @@
       "price": 5.29
     },
     {
-      "id": "73457",
+      "id": "207352",
       "name": "Conoco",
-      "address": "1201 N Barker Rd",
-      "lat": 47.66831,
-      "lng": -117.1541,
-      "price": 5.25
+      "address": "21121 E Wellesley Ave",
+      "lat": 47.7007584,
+      "lng": -117.1214936,
+      "price": 5.49
     },
     {
       "id": "98601",
@@ -267,14 +251,6 @@
       "price": 5.33
     },
     {
-      "id": "66251",
-      "name": "76",
-      "address": "1007 N Sullivan Rd",
-      "lat": 47.666438,
-      "lng": -117.197024,
-      "price": 5.29
-    },
-    {
       "id": "35657",
       "name": "Fred Meyer",
       "address": "15609 E Sprague Ave",
@@ -291,22 +267,6 @@
       "price": 5.25
     },
     {
-      "id": "126248",
-      "name": "A-1 Smoke Shop",
-      "address": "7200 W Seltice Way",
-      "lat": 47.701884703366,
-      "lng": -117.040207386016,
-      "price": 4.29
-    },
-    {
-      "id": "66156",
-      "name": "Exxon",
-      "address": "25105 E Trent Ave",
-      "lat": 47.724703328157,
-      "lng": -117.068322300911,
-      "price": 5.29
-    },
-    {
       "id": "196309",
       "name": "Amerimart",
       "address": "7035 W Seltice Way",
@@ -320,7 +280,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 4.4
+      "price": 4.39
     },
     {
       "id": "198986",
@@ -361,30 +321,6 @@
       "lat": 47.71600557013,
       "lng": -117.000863735582,
       "price": 4.39
-    },
-    {
-      "id": "108256",
-      "name": "Handy Mart",
-      "address": "312 N Spokane St",
-      "lat": 47.710360740197,
-      "lng": -116.947821378708,
-      "price": 4.39
-    },
-    {
-      "id": "11555",
-      "name": "Exxon",
-      "address": "701 N Spokane St",
-      "lat": 47.714158,
-      "lng": -116.94818,
-      "price": 4.39
-    },
-    {
-      "id": "110392",
-      "name": "Conoco",
-      "address": "26913 W ID-53",
-      "lat": 47.745686772663,
-      "lng": -117.019779682159,
-      "price": 4.49
     }
   ]
 }
