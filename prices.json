@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30 06:01:00 PDT",
-  "timestamp": 1793365260,
+  "updated": "2026-10-31 06:00:24 PDT",
+  "timestamp": 1793451624,
   "stations": [
     {
       "id": "194686",
@@ -40,7 +40,7 @@
       "address": "618 W Francis Ave",
       "lat": 47.715366363525,
       "lng": -117.421600341797,
-      "price": 4.75
+      "price": 4.67
     },
     {
       "id": "33576",
@@ -112,7 +112,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 4.79
+      "price": 4.78
     },
     {
       "id": "204322",
@@ -120,7 +120,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.79
+      "price": 4.78
     },
     {
       "id": "166821",
@@ -136,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.92
+      "price": 4.9
     },
     {
       "id": "11509",
@@ -152,7 +152,7 @@
       "address": "115 S Pines Rd   ",
       "lat": 47.655608480889,
       "lng": -117.239609509707,
-      "price": 4.99
+      "price": 4.89
     },
     {
       "id": "66244",
@@ -160,7 +160,7 @@
       "address": "520 S Pines Rd",
       "lat": 47.651783705725,
       "lng": -117.240251898766,
-      "price": 4.99
+      "price": 4.89
     },
     {
       "id": "66252",
@@ -184,7 +184,7 @@
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.79
+      "price": 4.77
     },
     {
       "id": "79191",
@@ -256,7 +256,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 4.99
+      "price": 4.93
     },
     {
       "id": "73457",
@@ -264,15 +264,15 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.95
+      "price": 4.89
     },
     {
-      "id": "98601",
-      "name": "Exxon",
-      "address": "18709 E Appleway Ave",
-      "lat": 47.66079,
-      "lng": -117.15322,
-      "price": 4.99
+      "id": "19226",
+      "name": "Mobil",
+      "address": "18616 E Appleway Ave",
+      "lat": 47.660607,
+      "lng": -117.153911,
+      "price": 4.94
     },
     {
       "id": "98600",
@@ -291,12 +291,36 @@
       "price": 4.69
     },
     {
+      "id": "35657",
+      "name": "Fred Meyer",
+      "address": "15609 E Sprague Ave",
+      "lat": 47.657565,
+      "lng": -117.194063,
+      "price": 4.79
+    },
+    {
       "id": "73455",
       "name": "Amerimart",
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.39
+    },
+    {
+      "id": "108791",
+      "name": "Nom No",
+      "address": "15504 E 4th Ave",
+      "lat": 47.653007,
+      "lng": -117.19633,
+      "price": 4.89
+    },
+    {
+      "id": "126248",
+      "name": "A-1 Smoke Shop",
+      "address": "7200 W Seltice Way",
+      "lat": 47.701884703366,
+      "lng": -117.040207386016,
+      "price": 3.93
     },
     {
       "id": "66156",
@@ -336,7 +360,7 @@
       "address": "4000 W Riverbend Ave",
       "lat": 47.707704004728,
       "lng": -117.002356052399,
-      "price": 4.25
+      "price": 4.09
     },
     {
       "id": "140817",
@@ -368,15 +392,7 @@
       "address": "768 N Pleasant View Rd",
       "lat": 47.71600557013,
       "lng": -117.000863735582,
-      "price": 4.13
-    },
-    {
-      "id": "108256",
-      "name": "Handy Mart",
-      "address": "312 N Spokane St",
-      "lat": 47.710360740197,
-      "lng": -116.947821378708,
-      "price": 4.19
+      "price": 4.05
     },
     {
       "id": "11555",
@@ -392,6 +408,14 @@
       "address": "26913 W ID-53",
       "lat": 47.745686772663,
       "lng": -117.019779682159,
+      "price": 4.15
+    },
+    {
+      "id": "47945",
+      "name": "76",
+      "address": "211 E Seltice Way",
+      "lat": 47.7154933428,
+      "lng": -116.946179866791,
       "price": 4.19
     }
   ]
