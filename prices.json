@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31 06:00:24 PDT",
-  "timestamp": 1793451624,
+  "updated": "2026-11-01 06:00:23 PST",
+  "timestamp": 1793541623,
   "stations": [
     {
       "id": "194686",
@@ -51,36 +51,12 @@
       "price": 4.67
     },
     {
-      "id": "195913",
-      "name": "Quick Stop",
-      "address": " 3021 E Wellesley Ave",
-      "lat": 47.70087925577,
-      "lng": -117.365299165249,
-      "price": 4.99
-    },
-    {
       "id": "63237",
       "name": "76",
       "address": "3430 N Crestline St",
       "lat": 47.688892,
       "lng": -117.378746,
       "price": 4.85
-    },
-    {
-      "id": "18325",
-      "name": "Cenex",
-      "address": "1023 W Wellesley Ave",
-      "lat": 47.700404504475,
-      "lng": -117.426810264587,
-      "price": 4.74
-    },
-    {
-      "id": "10738",
-      "name": "NomNom",
-      "address": "7902 N Division St",
-      "lat": 47.729672146348,
-      "lng": -117.410953044891,
-      "price": 4.79
     },
     {
       "id": "212851",
@@ -168,7 +144,7 @@
       "address": "13823 E Broadway Ave",
       "lat": 47.664520297117,
       "lng": -117.218394577503,
-      "price": 4.89
+      "price": 4.74
     },
     {
       "id": "91129",
@@ -184,7 +160,7 @@
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.77
+      "price": 4.74
     },
     {
       "id": "79191",
@@ -192,7 +168,7 @@
       "address": "2303 N Argonne Rd",
       "lat": 47.677604134263,
       "lng": -117.283086776733,
-      "price": 4.82
+      "price": 4.72
     },
     {
       "id": "19224",
@@ -208,7 +184,7 @@
       "address": "9009 E Montgomery Avenue",
       "lat": 47.678738,
       "lng": -117.284017,
-      "price": 4.82
+      "price": 4.72
     },
     {
       "id": "77523",
@@ -232,7 +208,7 @@
       "address": "14704 E Sprague  Ave",
       "lat": 47.656763,
       "lng": -117.206933,
-      "price": 4.77
+      "price": 4.74
     },
     {
       "id": "106607",
@@ -240,15 +216,7 @@
       "address": "22304 E Appleway Ave",
       "lat": 47.671191,
       "lng": -117.105118,
-      "price": 5.29
-    },
-    {
-      "id": "75994",
-      "name": "Chevron",
-      "address": "1109 N Liberty Lake Rd",
-      "lat": 47.667609,
-      "lng": -117.105345,
-      "price": 4.99
+      "price": 5.1
     },
     {
       "id": "214429",
@@ -264,7 +232,15 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.89
+      "price": 4.87
+    },
+    {
+      "id": "98601",
+      "name": "Exxon",
+      "address": "18709 E Appleway Ave",
+      "lat": 47.66079,
+      "lng": -117.15322,
+      "price": 4.99
     },
     {
       "id": "19226",
@@ -273,14 +249,6 @@
       "lat": 47.660607,
       "lng": -117.153911,
       "price": 4.94
-    },
-    {
-      "id": "98600",
-      "name": "Chevron",
-      "address": "1010 N Sullivan Rd",
-      "lat": 47.666418,
-      "lng": -117.196134,
-      "price": 4.99
     },
     {
       "id": "195980",
@@ -328,7 +296,7 @@
       "address": "25105 E Trent Ave",
       "lat": 47.724703328157,
       "lng": -117.068322300911,
-      "price": 5.29
+      "price": 4.99
     },
     {
       "id": "196309",
@@ -376,7 +344,7 @@
       "address": "4100 W Expo Pkwy",
       "lat": 47.712389297562,
       "lng": -117.002398967743,
-      "price": 4.11
+      "price": 4.05
     },
     {
       "id": "9102",
