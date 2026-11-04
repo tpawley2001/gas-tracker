@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03 06:00:45 PST",
-  "timestamp": 1793714445,
+  "updated": "2026-11-04 06:00:44 PST",
+  "timestamp": 1793800844,
   "stations": [
     {
       "id": "98956",
@@ -24,6 +24,14 @@
       "address": "1001 E Wellesley Ave",
       "lat": 47.70085,
       "lng": -117.39463,
+      "price": 4.69
+    },
+    {
+      "id": "19227",
+      "name": "Conoco",
+      "address": "925 E Wellesley Ave",
+      "lat": 47.70076553247,
+      "lng": -117.39565372467,
       "price": 4.69
     },
     {
@@ -59,6 +67,22 @@
       "price": 4.79
     },
     {
+      "id": "18325",
+      "name": "Cenex",
+      "address": "1023 W Wellesley Ave",
+      "lat": 47.700404504475,
+      "lng": -117.426810264587,
+      "price": 4.79
+    },
+    {
+      "id": "10738",
+      "name": "NomNom",
+      "address": "7902 N Division St",
+      "lat": 47.729672146348,
+      "lng": -117.410953044891,
+      "price": 4.69
+    },
+    {
       "id": "212851",
       "name": "Circle K",
       "address": "2667 N Hamilton St",
@@ -88,7 +112,7 @@
       "address": "1520 N Pines Rd",
       "lat": 47.67146,
       "lng": -117.23931,
-      "price": 4.74
+      "price": 4.69
     },
     {
       "id": "204322",
@@ -96,7 +120,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.78
+      "price": 4.69
     },
     {
       "id": "166821",
@@ -112,7 +136,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.84
+      "price": 4.82
     },
     {
       "id": "109599",
@@ -136,7 +160,7 @@
       "address": "115 S Pines Rd   ",
       "lat": 47.655608480889,
       "lng": -117.239609509707,
-      "price": 4.89
+      "price": 4.79
     },
     {
       "id": "66244",
@@ -160,7 +184,7 @@
       "address": "1520 N Argonne Rd",
       "lat": 47.67071,
       "lng": -117.282615,
-      "price": 4.72
+      "price": 4.67
     },
     {
       "id": "156921",
@@ -192,7 +216,7 @@
       "address": "9009 E Montgomery Avenue",
       "lat": 47.678738,
       "lng": -117.284017,
-      "price": 4.67
+      "price": 4.63
     },
     {
       "id": "77523",
@@ -216,7 +240,7 @@
       "address": "8215 E Trent Ave",
       "lat": 47.679026,
       "lng": -117.293936,
-      "price": 4.84
+      "price": 4.68
     },
     {
       "id": "63243",
@@ -224,7 +248,7 @@
       "address": "14704 E Sprague  Ave",
       "lat": 47.656763,
       "lng": -117.206933,
-      "price": 4.74
+      "price": 4.69
     },
     {
       "id": "106607",
@@ -296,7 +320,15 @@
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
-      "price": 4.39
+      "price": 4.47
+    },
+    {
+      "id": "108791",
+      "name": "Nom No",
+      "address": "15504 E 4th Ave",
+      "lat": 47.653007,
+      "lng": -117.19633,
+      "price": 4.82
     },
     {
       "id": "66156",
@@ -320,7 +352,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "198986",
@@ -328,7 +360,7 @@
       "address": "5992 W Point Parkway",
       "lat": 47.702447,
       "lng": -117.028733,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "140817",
@@ -336,7 +368,7 @@
       "address": "4208 W Expo Pkwy",
       "lat": 47.71080111,
       "lng": -117.0042658,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "9102",
@@ -344,7 +376,7 @@
       "address": "3636 W 5th Ave",
       "lat": 47.711364200151,
       "lng": -116.996970176697,
-      "price": 4.05
+      "price": 3.99
     },
     {
       "id": "214490",
@@ -355,12 +387,28 @@
       "price": 4.05
     },
     {
+      "id": "108256",
+      "name": "Handy Mart",
+      "address": "312 N Spokane St",
+      "lat": 47.710360740197,
+      "lng": -116.947821378708,
+      "price": 3.99
+    },
+    {
+      "id": "11555",
+      "name": "Exxon",
+      "address": "701 N Spokane St",
+      "lat": 47.714158,
+      "lng": -116.94818,
+      "price": 4.19
+    },
+    {
       "id": "110392",
       "name": "Conoco",
       "address": "26913 W ID-53",
       "lat": 47.745686772663,
       "lng": -117.019779682159,
-      "price": 4.15
+      "price": 4.09
     },
     {
       "id": "47945",
