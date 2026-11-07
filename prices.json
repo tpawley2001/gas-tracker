@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06 06:00:38 PST",
-  "timestamp": 1793973638,
+  "updated": "2026-11-07 06:00:39 PST",
+  "timestamp": 1794060039,
   "stations": [
     {
       "id": "194686",
@@ -8,7 +8,7 @@
       "address": "1019 East Francis ",
       "lat": 47.71549,
       "lng": -117.39467,
-      "price": 4.54
+      "price": 4.47
     },
     {
       "id": "38222",
@@ -17,6 +17,22 @@
       "lat": 47.70085,
       "lng": -117.39463,
       "price": 4.67
+    },
+    {
+      "id": "209744",
+      "name": "JK Gas & Grocery",
+      "address": "4617 N Nevada St",
+      "lat": 47.700532063012,
+      "lng": -117.395672,
+      "price": 4.54
+    },
+    {
+      "id": "69111",
+      "name": "JK Gas & Groceries",
+      "address": "4617 N Nevada St",
+      "lat": 47.700523,
+      "lng": -117.396,
+      "price": 4.54
     },
     {
       "id": "69122",
@@ -32,7 +48,7 @@
       "address": "6710 N Division St",
       "lat": 47.719022,
       "lng": -117.410588,
-      "price": 4.65
+      "price": 4.54
     },
     {
       "id": "33576",
@@ -88,7 +104,7 @@
       "address": "6410 N Freya St",
       "lat": 47.715899,
       "lng": -117.357417,
-      "price": 4.65
+      "price": 4.49
     },
     {
       "id": "95818",
@@ -96,7 +112,7 @@
       "address": "1421 N Pines Rd",
       "lat": 47.67048,
       "lng": -117.2401,
-      "price": 4.89
+      "price": 4.79
     },
     {
       "id": "66238",
@@ -112,7 +128,7 @@
       "address": "2125 N Pines Rd",
       "lat": 47.67652,
       "lng": -117.240163,
-      "price": 4.61
+      "price": 4.59
     },
     {
       "id": "166821",
@@ -128,7 +144,7 @@
       "address": "411 N Pines Rd",
       "lat": 47.660868,
       "lng": -117.239985,
-      "price": 4.78
+      "price": 4.71
     },
     {
       "id": "11509",
@@ -147,14 +163,6 @@
       "price": 4.69
     },
     {
-      "id": "66252",
-      "name": "Exxon",
-      "address": "13823 E Broadway Ave",
-      "lat": 47.664520297117,
-      "lng": -117.218394577503,
-      "price": 4.69
-    },
-    {
       "id": "91129",
       "name": "76",
       "address": "1520 N Argonne Rd",
@@ -168,7 +176,7 @@
       "address": "717 North Evergreen Road",
       "lat": 47.663619,
       "lng": -117.218095,
-      "price": 4.61
+      "price": 4.56
     },
     {
       "id": "79191",
@@ -227,14 +235,6 @@
       "price": 4.69
     },
     {
-      "id": "106607",
-      "name": "Cenex",
-      "address": "22304 E Appleway Ave",
-      "lat": 47.671191,
-      "lng": -117.105118,
-      "price": 4.95
-    },
-    {
       "id": "75994",
       "name": "Chevron",
       "address": "1109 N Liberty Lake Rd",
@@ -248,7 +248,7 @@
       "address": "18723 E Cataldo Ave",
       "lat": 47.667664439719,
       "lng": -117.152914837435,
-      "price": 4.83
+      "price": 4.75
     },
     {
       "id": "73457",
@@ -256,7 +256,7 @@
       "address": "1201 N Barker Rd",
       "lat": 47.66831,
       "lng": -117.1541,
-      "price": 4.81
+      "price": 4.79
     },
     {
       "id": "207352",
@@ -275,14 +275,6 @@
       "price": 4.84
     },
     {
-      "id": "98600",
-      "name": "Chevron",
-      "address": "1010 N Sullivan Rd",
-      "lat": 47.666418,
-      "lng": -117.196134,
-      "price": 4.89
-    },
-    {
       "id": "195980",
       "name": "Maverik",
       "address": "2707 North Sullivan Road",
@@ -291,12 +283,28 @@
       "price": 4.47
     },
     {
+      "id": "35657",
+      "name": "Fred Meyer",
+      "address": "15609 E Sprague Ave",
+      "lat": 47.657565,
+      "lng": -117.194063,
+      "price": 4.61
+    },
+    {
       "id": "73455",
       "name": "Amerimart",
       "address": "3620 N Sullivan Rd",
       "lat": 47.68994,
       "lng": -117.19641,
       "price": 4.11
+    },
+    {
+      "id": "108791",
+      "name": "Nom No",
+      "address": "15504 E 4th Ave",
+      "lat": 47.653007,
+      "lng": -117.19633,
+      "price": 4.65
     },
     {
       "id": "126248",
@@ -328,7 +336,7 @@
       "address": "70 N Beck Rd",
       "lat": 47.7031601,
       "lng": -117.022315,
-      "price": 3.99
+      "price": 3.89
     },
     {
       "id": "198986",
@@ -344,7 +352,7 @@
       "address": "6902 W Seltice Way",
       "lat": 47.703826949374,
       "lng": -117.038147449493,
-      "price": 3.9
+      "price": 3.89
     },
     {
       "id": "26894",
@@ -368,7 +376,7 @@
       "address": "4100 W Expo Pkwy",
       "lat": 47.712389297562,
       "lng": -117.002398967743,
-      "price": 4.05
+      "price": 3.95
     },
     {
       "id": "9102",
@@ -384,7 +392,7 @@
       "address": "768 N Pleasant View Rd",
       "lat": 47.71600557013,
       "lng": -117.000863735582,
-      "price": 3.99
+      "price": 3.89
     },
     {
       "id": "124106",
